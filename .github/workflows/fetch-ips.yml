@@ -1,9 +1,8 @@
 name: Fetch IPs
 
 on:
-  schedule: # https://crontab.guru
-    - cron: '0 */2 * * *' # At minute 0 past every 2nd hour.
-
+  schedule:
+    - cron: '0 */2 * * *' # Co 2 godziny
   workflow_dispatch:
 
 jobs:
@@ -34,13 +33,15 @@ jobs:
         id: check_changes
         run: |
           git status -s > changes.txt
-          echo "::set-output name=has_changes::$(cat changes.txt | wc -l)"
+          echo "has_changes=$(cat changes.txt | wc -l)" >> $GITHUB_ENV
 
       - name: Commit and push changes if necessary
-        if: steps.check_changes.outputs.has_changes != '0'
+        if: env.has_changes != '0'
         run: |
           git config user.name "Sefinek Actions"
           git config user.email "sefinek.actions@gmail.com"
           git add .
           git commit -am "Update the list of malicious IP addresses"
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_SECRET }}
