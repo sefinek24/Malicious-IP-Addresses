@@ -28,7 +28,7 @@ jobs:
       - name: Fetch IPs from API and update files
         run: node worker.js
         env:
-          API_KEY: ${{ secrets.SEFIN_API_KEY }}
+          SEFIN_API_KEY: ${{ secrets.SEFIN_API_KEY }}
 
       - name: Check for changes
         id: check_changes
