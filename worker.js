@@ -3,8 +3,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { version } = require('./package.json');
 
-const listFilePath = path.join(__dirname, 'list.txt');
-const logsFilePath = path.join(__dirname, 'logs.csv');
+const listFilePath = path.join(__dirname, 'lists', 'main.txt');
+const logsFilePath = path.join(__dirname, 'lists', 'main.csv');
 
 const whitelistUserAgents = [
 	'Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.0.0 Safari/537.36'
