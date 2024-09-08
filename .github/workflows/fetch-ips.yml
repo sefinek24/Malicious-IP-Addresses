@@ -2,7 +2,7 @@ name: Fetch IPs
 
 on:
   schedule: # https://crontab.guru
-    - cron: '0 8 * * *' # Codziennie o 08:00
+    - cron: '0 */2 * * *' # At minute 0 past every 2nd hour.
 
   workflow_dispatch:
 
