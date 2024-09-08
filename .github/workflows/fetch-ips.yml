@@ -44,4 +44,4 @@ jobs:
           git commit -am "Update the list of malicious IP addresses"
           git push origin main
         env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.SEFINEK_ACTIONS_PAT }}
