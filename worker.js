@@ -16,7 +16,7 @@ const fileContains = (filePath, value) => {
 };
 
 const ensureCsvHeader = (filePath, header) => {
-	if (fs.existsSync(filePath)) fs.writeFileSync(filePath, `${header}\n`);
+	if (!fs.existsSync(filePath)) fs.writeFileSync(filePath, `${header}\n`);
 };
 
 const escapeCsvValue = (value) => {
