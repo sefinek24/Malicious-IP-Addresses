@@ -10,9 +10,18 @@ const whitelistUserAgents = [
 	'Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.0.0 Safari/537.36'
 ];
 
-const fileContains = (filePath, value) => {
+const loadUniqueIPsFromFile = (filePath) => {
 	const content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
-	return content.split('\n').some(line => line.includes(value));
+	const lines = content.split('\n').map(line => line.trim()).filter(line => line !== '');
+	return new Set(lines);
+};
+
+const loadCsvRayIds = (filePath) => {
+	const content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
+	return new Set(content.split('\n').map(line => {
+		const columns = line.split(',');
+		return columns.length > 2 ? columns[2].trim() : null;
+	}).filter(line => line));
 };
 
 const ensureCsvHeader = (filePath, header) => {
@@ -20,10 +29,9 @@ const ensureCsvHeader = (filePath, header) => {
 };
 
 const escapeCsvValue = (value) => {
-	if (typeof value === 'string' && (value.includes(',') || value.includes('\n'))) {
-		return `"${value.replace(/"/g, '""')}"`;
-	}
-	return value;
+	return (typeof value === 'string' && (value.includes(',') || value.includes('\n')))
+		? `"${value.replace(/"/g, '""')}"`
+		: value;
 };
 
 (async () => {
@@ -38,9 +46,13 @@ const escapeCsvValue = (value) => {
 			}
 		});
 
-		const data = res.data?.logs;
+		const data = res.data?.logs || [];
 		let newCsvEntries = 0, newIPsAdded = 0, skippedEntries = 0, totalLogsProcessed = 0;
-		if (data?.length) {
+
+		const existingIPs = loadUniqueIPsFromFile(listFilePath);
+		const existingRayIds = loadCsvRayIds(logsFilePath);
+
+		if (data.length > 0) {
 			ensureCsvHeader(logsFilePath, 'Timestamp UTC, Original Timestamp, CF RayID, IP, Endpoint, User-Agent, Action, Country');
 
 			data.forEach(entry => {
@@ -53,24 +65,26 @@ const escapeCsvValue = (value) => {
 
 				totalLogsProcessed++;
 
-				if (!fileContains(listFilePath, ip)) {
+				if (!existingIPs.has(ip)) {
 					fs.appendFileSync(listFilePath, `${ip}\n`);
+					existingIPs.add(ip);
 					newIPsAdded++;
 				}
 
-				if (!fileContains(logsFilePath, rayId)) {
+				if (!existingRayIds.has(rayId)) {
 					const logEntry = [
 						new Date().toISOString(),
 						new Date(timestamp).toISOString(),
-						escapeCsvValue(rayId),
-						escapeCsvValue(ip),
+						rayId,
+						ip,
 						escapeCsvValue(endpoint),
 						escapeCsvValue(useragent),
-						escapeCsvValue(action),
-						escapeCsvValue(country)
+						action,
+						country
 					].join(',') + '\n';
 
 					fs.appendFileSync(logsFilePath, logEntry);
+					existingRayIds.add(rayId);
 					newCsvEntries++;
 				} else {
 					skippedEntries++;
