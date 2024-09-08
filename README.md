@@ -19,5 +19,5 @@ It is recommended to update the list regularly.
 
 ## Mirror
 ```text
-https://raw.githubusercontent.com/sefinek24/malicious-ip-addresses/main/lists/main.txt
+https://raw.githubusercontent.com/sefinek24/Malicious-IP-Addresses/main/lists/main.txt
 ```
