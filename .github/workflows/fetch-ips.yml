@@ -40,4 +40,5 @@ jobs:
             git push origin main
           else
             echo "Canceled. No files were modified."
+            exit 0
           fi
