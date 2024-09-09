@@ -29,6 +29,9 @@ jobs:
         env:
           SEFIN_API_KEY: ${{ secrets.SEFIN_API_KEY }}
 
+      - name: Add files to staging
+        run: git add .
+
       - name: Commit and push changes
         run: |
           git config user.name "Sefinek Actions"
