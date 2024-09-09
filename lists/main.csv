@@ -6,5 +6,4 @@ Timestamp UTC, Original Timestamp, CF RayID, IP, Endpoint, User-Agent, Action, C
 2024-09-09T00:33:57.609Z,2024-09-09T00:33:13.530Z,8bffef33cee36702,195.178.110.135,/.git/config,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",REPORTED,BG
 2024-09-09T00:33:57.609Z,2024-09-09T00:33:13.530Z,8bffe08ffa84092c,221.8.168.101,/,Mozilla/5.0 (Windows NT 5.1; rv:40.0) Gecko/20100101 Firefox/40.0,REPORTED,CN
 2024-09-09T00:33:57.609Z,2024-09-09T00:33:13.530Z,8bffdecbdf9be5ca,64.227.165.147,/wp-admin/css/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36",REPORTED,IN
-2024-09-09T00:33:57.609Z,2024-09-09T00:33:13.530Z,8bffce9b8cc10256,172.245.142.238,/favicon.ico,"Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.100 Mobile Safari/537.36",REPORTED,US
 2024-09-09T00:33:57.609Z,2024-09-09T00:33:13.530Z,8bffbefd9b466341,51.89.153.112,/,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36",REPORTED,T1
