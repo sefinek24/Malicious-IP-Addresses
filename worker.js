@@ -34,6 +34,14 @@ const escapeCsvValue = (value) => {
 		: value;
 };
 
+const appendToFile = (filePath, content) => {
+	if (fs.existsSync(filePath)) {
+		fs.appendFileSync(filePath, `\n${content}`);
+	} else {
+		fs.writeFileSync(filePath, content);
+	}
+};
+
 (async () => {
 	try {
 		const apiKey = process.env.SEFIN_API_KEY;
@@ -66,7 +74,7 @@ const escapeCsvValue = (value) => {
 				totalLogsProcessed++;
 
 				if (!existingIPs.has(ip)) {
-					fs.appendFileSync(listFilePath, `${ip}\n`);
+					appendToFile(listFilePath, ip);
 					existingIPs.add(ip);
 					newIPsAdded++;
 				}
