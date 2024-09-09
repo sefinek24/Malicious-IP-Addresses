@@ -37,10 +37,10 @@ jobs:
           git config user.name "Sefinek Actions"
           git config user.email "sefinek.actions@gmail.com"
           if [ -n "$(git status -s)" ]; then
-            MODIFIED_FILES=$(git diff --name-only HEAD | grep -v '^cache/')
+            MODIFIED_FILES=$(git diff --name-only HEAD)
             FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
             if [ "$FILE_COUNT" -gt 0 ]; then
-              git commit -am "Update previously committed blocklists in $GITHUB_SHA [$FILE_COUNT files]" -m "$MODIFIED_FILES"
+              git commit -am "Update the list of malicious IP addresses [$FILE_COUNT files]" -m "$MODIFIED_FILES"
               git push origin main
             else
               echo "Canceled. No changes were made."
