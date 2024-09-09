@@ -34,7 +34,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          MODIFIED_FILES=$(git diff --name-only HEAD)
+          MODIFIED_FILES=$(git status --porcelain)
           FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
 
           if [[ $FILE_COUNT -eq 0 ]]; then
