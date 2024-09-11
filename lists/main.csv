@@ -158,3 +158,9 @@ Timestamp UTC, Original Timestamp, CF RayID, IP, Endpoint, User-Agent, Action, C
 2024-09-11T06:05:51.900Z,2024-09-11T05:10:32.444Z,8c11c314cb3c2a7f,80.67.172.162,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",REPORTED,T1
 2024-09-11T06:05:51.900Z,2024-09-11T05:10:32.444Z,8c117a9b9f222fc3,176.84.166.42,/generated/v1/0.0.0.0/test.txt%20https://big.oisd.nl/unbound%20https://nsfw.oisd.nl/unbound,python-requests/2.32.3,REPORTED,ES
 2024-09-11T06:05:51.900Z,2024-09-11T05:10:32.444Z,8c1179321a816a6b,185.220.101.26,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",REPORTED,T1
+2024-09-11T08:05:27.572Z,2024-09-11T07:10:32.520Z,8c12a169f88c1546,15.237.250.154,/wp-aa.php,python-requests/2.27.1,REPORTED,FR
+2024-09-11T08:05:27.572Z,2024-09-11T07:10:32.521Z,8c129eb6beae110f,175.16.73.255,/,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.0 Safari/537.36",REPORTED,CN
+2024-09-11T08:05:27.572Z,2024-09-11T07:10:32.521Z,8c128f744da4ca9d,185.220.101.13,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36 Herring/95.1.8810.11",REPORTED,T1
+2024-09-11T08:05:27.572Z,2024-09-11T07:10:32.522Z,8c125ddf4e0870bd,194.169.175.180,/.env,"Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; HM NOTE 1W Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30",REPORTED,BG
+2024-09-11T08:05:27.572Z,2024-09-11T07:10:32.522Z,8c1257cb7e328b27,27.124.32.96,/temp.php,Python-urllib/3.10,REPORTED,US
+2024-09-11T08:05:27.572Z,2024-09-11T07:10:32.523Z,8c124c0b3a4766fc,5.255.121.71,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36",REPORTED,T1
