@@ -218,3 +218,4 @@ Timestamp UTC, Original Timestamp, CF RayID, IP, Endpoint, User-Agent, Action, C
 2024-09-11T22:04:19.629Z,2024-09-11T21:10:32.461Z,8c1726d7e90cb23f,185.241.208.204,/,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",REPORTED,T1
 2024-09-11T22:04:19.629Z,2024-09-11T21:10:32.461Z,8c1714d56e14b96e,91.92.249.235,//blog/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",REPORTED,NL
 2024-09-11T22:04:19.629Z,2024-09-11T21:10:32.462Z,8c16f957daee930d,2a07:e01:2:70::1,/.;/actuator/env,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0,REPORTED,SE
+2024-09-12T00:17:37.418Z,2024-09-11T23:10:32.432Z,8c1849c9cc730418,138.199.19.170,/wp-content/themes/finley/,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",REPORTED,DE
