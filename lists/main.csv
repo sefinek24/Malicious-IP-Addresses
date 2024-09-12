@@ -258,3 +258,12 @@ Timestamp UTC, Original Timestamp, CF RayID, IP, Endpoint, User-Agent, Action, C
 2024-09-12T10:04:59.070Z,2024-09-12T09:10:32.487Z,8c1b6b983d41c01e,79.137.71.22,/wp-login.php,Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0,REPORTED,PL
 2024-09-12T10:04:59.070Z,2024-09-12T09:10:32.487Z,8c1b5cf74959b8a8,185.184.201.87,/,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/94.0.4606.61 Safari/537.36",REPORTED,DE
 2024-09-12T10:04:59.070Z,2024-09-12T09:10:32.487Z,8c1b34f5db816fa3,34.162.79.126,/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php,python-requests/2.27.1,REPORTED,US
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.553Z,8c1c5c01de9062e6,185.220.101.19,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",REPORTED,T1
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.553Z,8c1c4d0fec272fb3,91.142.222.180,/wp-login.php,Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0,REPORTED,ES
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.553Z,8c1c42ea1d78224b,193.26.115.82,/index.php,Go-http-client/1.1,REPORTED,US
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.553Z,8c1c1b8f3c8cc5b1,2a01:4ff:f0:8cb1::1,/blocklist-generator/adguard,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",REPORTED,US
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.553Z,8c1c1b8f0c2fc926,5.161.206.169,/blocklist-generator/adguard,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",REPORTED,US
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.554Z,8c1c15de9bc10e86,185.40.4.101,/,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",REPORTED,T1
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.554Z,8c1c0e34e9fcd27a,89.161.180.225,/wp-login.php,ddg_android/5.173.1 (com.duckduckgo.mobile.android; Android API 33),REPORTED,PL
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.554Z,8c1bcf57db5f7276,185.220.101.149,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",REPORTED,T1
+2024-09-12T12:06:52.462Z,2024-09-12T11:10:32.554Z,8c1bc086cccc6c73,205.169.39.249,/11.09.2024/null,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",REPORTED,US
