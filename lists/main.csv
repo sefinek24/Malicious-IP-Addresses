@@ -472,3 +472,8 @@ Timestamp UTC, Original Timestamp, CF RayID, IP, Endpoint, User-Agent, Action, C
 2024-09-13T16:04:32.157Z,2024-09-13T15:10:32.512Z,8c26049b8bd640c1,152.42.188.110,//test/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",REPORTED,SG
 2024-09-13T16:04:32.157Z,2024-09-13T15:10:32.512Z,8c25ebaf38dabdcd,13.79.92.84,/ern1.php,N/A,REPORTED,IE
 2024-09-13T16:04:32.157Z,2024-09-13T15:10:32.513Z,8c25e707fd029f6b,128.199.207.15,/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, seperti Gecko) Chrome/85.0.4183.102 Safari/537.36",REPORTED,SG
+2024-09-13T18:05:10.556Z,2024-09-13T17:10:32.510Z,8c268f389828b194,45.141.215.19,/,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36",REPORTED,T1
+2024-09-13T18:05:10.556Z,2024-09-13T17:10:32.510Z,8c267ef31e642fb3,185.153.151.157,/wp-content/plugins/core-stab/,Mozilla/5.0 (X11; Linux i686; rv:79.0) Gecko/20100101 Firefox/79.0,REPORTED,LU
+2024-09-13T18:05:10.556Z,2024-09-13T17:10:32.511Z,8c26696748eecaf1,2001:4dd6:3b9c:0:ac9b:31da:f114:be55,/generated/adguard/ads/jerryn70.GoodbyeAds.txt,Mozilla/5.0 (Windows NT 10.0; WOW64; rv:76.0) Gecko/20100101 Firefox/76.0,REPORTED,DE
+2024-09-13T18:05:10.556Z,2024-09-13T17:10:32.511Z,8c264b809c275b91,109.70.100.70,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",REPORTED,T1
+2024-09-13T18:05:10.556Z,2024-09-13T17:10:32.511Z,8c2633638e8bcb8e,175.16.75.26,/,Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0,REPORTED,CN
