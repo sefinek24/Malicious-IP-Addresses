@@ -21,8 +21,3 @@ It is recommended to update the list regularly.
 ```text
 https://raw.githubusercontent.com/sefinek24/Malicious-IP-Addresses/main/lists/main.txt
 ```
-
-## CSV file
-```text
-https://raw.githubusercontent.com/sefinek24/Malicious-IP-Addresses/main/lists/main.csv
-```
