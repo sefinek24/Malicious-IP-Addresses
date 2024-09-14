@@ -16,7 +16,7 @@ const loadUniqueIPsFromFile = (filePath) => {
 	return new Set(lines);
 };
 
-const loadCsvRayIds = (filePath) => {
+const loadCsvRayIds = filePath => {
 	const content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
 	return new Set(content.split('\n').map(line => {
 		const columns = line.split(',');
@@ -28,7 +28,7 @@ const ensureCsvHeader = (filePath, header) => {
 	if (!fs.existsSync(filePath)) fs.writeFileSync(filePath, `${header}\n`);
 };
 
-const escapeCsvValue = (value) => {
+const escapeCsvValue = value => {
 	return (typeof value === 'string' && (value.includes(',') || value.includes('\n')))
 		? `"${value.replace(/"/g, '""')}"`
 		: value;
