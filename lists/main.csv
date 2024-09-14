@@ -16,3 +16,24 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-14T14:04:00.515Z,2024-09-14T12:28:11.985Z,8c2c9ee399dfb333,37.205.8.220,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5042.0 Safari/537.36",MANAGED_CHALLENGE,T1
 2024-09-14T14:04:00.515Z,2024-09-14T12:28:11.985Z,8c2c72637aec0bdc,91.92.249.235,//site/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",BLOCK,NL
 2024-09-14T14:04:00.515Z,2024-09-14T12:28:11.985Z,8c2c6ba9fdee6560,91.92.242.163,//sito/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",BLOCK,BG
+2024-09-14T16:04:11.844Z,2024-09-14T14:28:12.012Z,8c2df9d298cbca99,185.220.101.150,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36",BLOCK,T1
+2024-09-14T16:04:11.844Z,2024-09-14T14:28:12.013Z,8c2df9a228192a29,198.235.24.145,/,N/A,BLOCK,US
+2024-09-14T16:04:11.844Z,2024-09-14T14:28:12.013Z,8c2de7ebcf260b7f,2409:4043:2403:a2dc::1a73:a5,/favicon.ico,"Mozilla/5.0 (Linux; Android 12; V2214; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36 VivoBrowser/12.8.2.0",CHALLENGE,IN
+2024-09-14T16:04:11.844Z,2024-09-14T14:28:12.013Z,8c2ddf5ebf300990,143.92.32.155,/temp.php,Python-urllib/3.10,BLOCK,SG
+2024-09-14T16:04:11.844Z,2024-09-14T14:28:12.013Z,8c2dde1758197d12,141.239.146.1,/resources/PiHole-Blocklist-Collection/blocklist/malicious-sites.txt,N/A,BLOCK,US
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.014Z,8c2dd45a5c2b1ffd,44.193.210.40,/app-ads.txt,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",CHALLENGE,US
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.014Z,8c2dd00fa93b0778,74.114.154.10,/genshin-stella-mod,N/A,BLOCK,US
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.014Z,8c2dd004ce7f05e9,74.114.154.12,/genshin-stella-mod,N/A,BLOCK,US
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.014Z,8c2dcffa2b8320d5,74.114.154.11,/genshin-stella-mod,N/A,BLOCK,US
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.015Z,8c2dcb20f86920f4,134.122.135.146,/temp.php,Python-urllib/3.10,BLOCK,HK
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.015Z,8c2db75e25ff3e34,2a06:98c0:3600::103,/generated/v1/127.0.0.1/scam/jarelllama/scam.fork.txt,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.7 Safari/537.36",CHALLENGE,IN
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.015Z,8c2db5d42895d25e,185.220.100.253,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36 OpenWave/97.4.2043.44",MANAGED_CHALLENGE,T1
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.015Z,8c2d97679b9e4172,178.62.220.106,/,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36",CHALLENGE,NL
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.015Z,8c2d971bd9b9b15e,185.241.208.23,//wp2/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",BLOCK,PL
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.015Z,8c2d91cacb6e2301,194.38.20.13,/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php,ALittle Client,BLOCK,UA
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.016Z,8c2d91499eef7bbf,218.27.172.185,/,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36",CHALLENGE,CN
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.016Z,8c2d8b278d1e7d2f,192.52.166.13,/.env,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36",BLOCK,US
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.016Z,8c2d7102193f9bdd,107.189.3.249,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.016Z,8c2d70cd1937c3d8,185.241.208.222,/wp-login.php,Mozilla/5.0,BLOCK,PL
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.016Z,8c2d2c5e8a5fb7ef,192.42.116.178,/,"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.017Z,8c2d251638f8ec2b,50.52.125.139,/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt,N/A,BLOCK,US
