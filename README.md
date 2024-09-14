@@ -17,7 +17,12 @@ This list can be useful for network administrators, security researchers, and cy
 Blocking IP addresses should be done carefully to avoid blocking legitimate traffic.
 It is recommended to update the list regularly.
 
-## Mirror
+## TXT file
 ```text
 https://raw.githubusercontent.com/sefinek24/Malicious-IP-Addresses/main/lists/main.txt
+```
+
+## CSV file
+```text
+https://raw.githubusercontent.com/sefinek24/Malicious-IP-Addresses/main/lists/main.csv
 ```
