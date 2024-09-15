@@ -125,3 +125,11 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-14T22:04:15.789Z,2024-09-14T20:28:12.067Z,8c2f7ee8ed12d592,2409:4085:50b:950::695:28ad,/favicon.ico,"Mozilla/5.0 (Linux; Android 13; V2037; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36 VivoBrowser/12.8.2.0",CHALLENGE,IN
 2024-09-14T22:04:15.789Z,2024-09-14T20:28:12.067Z,8c2f6b275805825e,198.235.24.41,/,N/A,BLOCK,US
 2024-09-14T22:04:15.789Z,2024-09-14T20:28:12.067Z,8c2f62702977d264,109.70.100.6,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",BLOCK,T1
+2024-09-15T00:19:48.202Z,2024-09-14T22:28:11.966Z,8c30ad068d9f2f1d,175.16.73.255,/,Mozilla/5.0 (Windows NT 5.1; rv:57.0) Gecko/20100101 Firefox/57.0,CHALLENGE,CN
+2024-09-15T00:19:48.202Z,2024-09-14T22:28:11.967Z,8c3099c728d8d0d9,51.15.16.101,/wp-content/plugins/fix/up.php,"Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36",BLOCK,FR
+2024-09-15T00:19:48.202Z,2024-09-14T22:28:11.967Z,8c3092de2f9cac12,192.30.83.229,/resources/v3/genshin-stella-mod/reshade/ReShade.log,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246",CHALLENGE,US
+2024-09-15T00:19:48.202Z,2024-09-14T22:28:11.967Z,8c307e09c8bc00a6,13.39.156.37,/temp/,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0,BLOCK,FR
+2024-09-15T00:19:48.203Z,2024-09-14T22:28:11.967Z,8c3041aa9ba4cb8a,20.171.153.97,/images/xmrlpc.php,N/A,BLOCK,US
+2024-09-15T00:19:48.203Z,2024-09-14T22:28:11.967Z,8c30381b9bf1b50c,185.40.4.100,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-15T00:19:48.203Z,2024-09-14T22:28:11.967Z,8c3034efded3d51e,198.235.24.163,/,N/A,BLOCK,US
+2024-09-15T00:19:48.203Z,2024-09-14T22:28:11.967Z,8c3018daa9d58440,198.235.24.48,/,N/A,BLOCK,US
