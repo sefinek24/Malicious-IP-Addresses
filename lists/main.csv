@@ -196,3 +196,12 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-15T06:05:13.234Z,2024-09-15T04:28:12.026Z,8c32401dc9e7c289,109.70.100.67,/,Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0),BLOCK,T1
 2024-09-15T06:05:13.234Z,2024-09-15T04:28:12.026Z,8c322ffdff44aab6,198.96.155.3,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36",MANAGED_CHALLENGE,T1
 2024-09-15T06:05:13.234Z,2024-09-15T04:28:12.026Z,8c322fd24ed12cbc,189.188.82.219,/,Mozilla/5.0 (Macintosh; Intel Mac OS X 14.6; rv:76.0) Gecko/20100101 Firefox/76.0,CHALLENGE,MX
+2024-09-15T08:05:11.560Z,2024-09-15T06:28:12.040Z,8c3388ca9d345a50,78.153.140.223,/.env,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.0,BLOCK,GB
+2024-09-15T08:05:11.560Z,2024-09-15T06:28:12.040Z,8c3385e028bc9fed,45.148.10.172,/.env,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",BLOCK,NL
+2024-09-15T08:05:11.561Z,2024-09-15T06:28:12.041Z,8c335fa77986174b,207.241.236.247,/benefits/images,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/605.1.15",CHALLENGE,US
+2024-09-15T08:05:11.561Z,2024-09-15T06:28:12.041Z,8c334d4ae9174c82,23.154.177.2,/,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-15T08:05:11.561Z,2024-09-15T06:28:12.041Z,8c331b054826a216,2607:5300:201:3100::2d6a,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",CHALLENGE,CA
+2024-09-15T08:05:11.561Z,2024-09-15T06:28:12.041Z,8c3312d8bb2740e6,188.166.178.123,//2018/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",BLOCK,SG
+2024-09-15T08:05:11.561Z,2024-09-15T06:28:12.041Z,8c3305d1cbf8656b,192.42.116.193,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-15T08:05:11.561Z,2024-09-15T06:28:12.041Z,8c32f01a4de9427f,84.180.65.82,/generated/v1/0.0.0.0/social/instagram.txthttps://blocklist.sefinek.net/generated/v1/0.0.0.0/social/facebook.txt,curl/7.81.0,BLOCK,DE
+2024-09-15T08:05:11.561Z,2024-09-15T06:28:12.041Z,8c32e4811f510a4c,109.202.99.36,/.ssh/id_ed25519,Go-http-client/1.1,BLOCK,NL
