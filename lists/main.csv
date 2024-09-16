@@ -39,7 +39,6 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-14T16:04:11.845Z,2024-09-14T14:28:12.017Z,8c2d251638f8ec2b,50.52.125.139,/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt,N/A,BLOCK,US
 2024-09-14T18:04:51.318Z,2024-09-14T16:28:12.123Z,8c2ea899c946954f,40.113.88.169,/defaul1.php,N/A,BLOCK,IE
 2024-09-14T18:04:51.318Z,2024-09-14T16:28:12.124Z,8c2e9a953812c2f7,2001:858:6::176,//favicon.ico,N/A,BLOCK,AT
-2024-09-14T18:04:51.318Z,2024-09-14T16:28:12.124Z,8c2e93572966c3cc,79.186.209.135,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",BLOCK,PL
 2024-09-14T18:04:51.318Z,2024-09-14T16:28:12.124Z,8c2e87d6ca3562c1,185.220.101.163,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36",BLOCK,T1
 2024-09-14T18:04:51.318Z,2024-09-14T16:28:12.124Z,8c2e7f9f8eda375b,179.43.168.130,/.git/config,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",BLOCK,CH
 2024-09-14T18:04:51.318Z,2024-09-14T16:28:12.124Z,8c2e7924fd7ecd46,193.128.108.245,/genshin-stella-mod/subscription,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322),CHALLENGE,GB
