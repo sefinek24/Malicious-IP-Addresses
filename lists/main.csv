@@ -335,7 +335,6 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-15T20:04:28.207Z,2024-09-15T18:28:12.099Z,8c3779e4ebed06ca,91.92.249.4,/.env,SEC-SGHX820/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1,BLOCK,NL
 2024-09-15T20:04:28.207Z,2024-09-15T18:28:12.099Z,8c375d2c597d49c0,194.233.86.147,/wp-login.php,Mozilla/5.0,BLOCK,SG
 2024-09-15T20:04:28.207Z,2024-09-15T18:28:12.100Z,8c375963dad156a8,185.40.4.92,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-09-15T20:04:28.207Z,2024-09-15T18:28:12.100Z,8c3758c41cfc40d6,36.80.143.36,/https://api.sefinek.net/,Test Certificate Info,BLOCK,ID
 2024-09-15T20:04:28.207Z,2024-09-15T18:28:12.100Z,8c3744c5aca137f2,2001:41d0:701:1100::52d6,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36",CHALLENGE,DE
 2024-09-15T20:04:28.207Z,2024-09-15T18:28:12.100Z,8c371848ad9849b4,143.198.222.241,//test/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",BLOCK,SG
 2024-09-15T20:04:28.207Z,2024-09-15T18:28:12.100Z,8c3714e50f4bcad5,185.220.101.22,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",BLOCK,T1
