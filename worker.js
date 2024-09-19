@@ -105,7 +105,7 @@ const appendToFile = (filePath, content) => {
 		console.log(`New entries added to CSV: ${newCsvEntries}`);
 		console.log(`Skipped entries: ${skippedEntries}`);
 	} catch (err) {
-		console.error('Error fetching or processing data:', err.message);
+		console.error(err);
 		process.exit(1);
 	}
 })();
