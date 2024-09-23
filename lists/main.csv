@@ -357,3 +357,6 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-16T00:18:39.738Z,2024-09-15T22:26:07.315Z,8c38cd9028fe62ff,185.220.101.44,/genshin-stella-mod,"Mozilla/5.0 (Macintosh; Intel Mac OS X 12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Vivaldi/5.3.2679.68",BLOCK,T1
 2024-09-16T00:18:39.738Z,2024-09-15T22:26:07.315Z,8c38bdff2ddd9f9f,192.42.116.213,/,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36",MANAGED_CHALLENGE,T1
 2024-09-16T00:18:39.738Z,2024-09-15T22:26:07.315Z,8c388c163c653e48,2402:1f00:8000:800::31b2,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246",CHALLENGE,SG
+2024-09-23T16:04:56.745Z,2024-09-23T15:02:43.159Z,8c78823a397f0f83,199.195.251.78,/,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-23T16:04:56.746Z,2024-09-23T15:02:47.584Z,8c787cb1783abdf5,52.169.185.135,/wp-mail.php,Empty string,BLOCK,IE
+2024-09-23T16:04:56.746Z,2024-09-23T15:02:56.120Z,8c787bc3f8f1d2e6,202.61.226.98,/genshin-stella-mod,"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Vivaldi/5.3.2679.68",MANAGED_CHALLENGE,T1
