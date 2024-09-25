@@ -642,3 +642,14 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-25T12:07:04.749Z,2024-09-25T11:58:04.291Z,8c87995fbc773275,43.201.153.87,/,"Mozilla/5.0 (Linux; Android 9; ASUS_X00TD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36",CHALLENGE,KR
 2024-09-25T12:07:04.749Z,2024-09-25T11:58:12.299Z,8c876e611f9f42df,104.251.82.145,/,"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36",BLOCK,US
 2024-09-25T12:07:04.749Z,2024-09-25T11:58:19.069Z,8c8763efdfe16539,23.154.177.26,/,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-25T14:04:24.453Z,2024-09-24T17:40:19.774Z,8c816782e95a08ee,114.44.136.68,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-24T19:42:42.664Z,8c825cafaac07e99,59.115.156.137,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-24T19:43:12.234Z,8c81f4b42b242abb,114.45.212.51,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-24T19:43:20.578Z,8c81ee94ce6508f4,36.226.199.20,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-24T21:44:18.754Z,8c83325c2fdf8801,125.160.115.218,//video/stella/GenshinImpact_kTfXreFQMyHz.effects.mp4,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",BLOCK,ID
+2024-09-25T14:04:24.453Z,2024-09-24T21:44:54.275Z,8c82e191bd152ae1,36.228.11.114,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-24T21:45:10.153Z,8c82b479b84d1032,114.26.75.131,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-24T23:46:44.896Z,8c83b61f3a16cbaf,114.44.154.150,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-25T07:53:05.207Z,8c866d37395069b6,114.26.81.41,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-25T07:54:01.769Z,8c860ae75d792b5c,36.226.200.40,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T14:04:24.453Z,2024-09-25T09:54:50.634Z,8c87286bcfc831d9,114.44.136.242,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
