@@ -653,3 +653,5 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-25T14:04:24.453Z,2024-09-25T07:53:05.207Z,8c866d37395069b6,114.26.81.41,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
 2024-09-25T14:04:24.453Z,2024-09-25T07:54:01.769Z,8c860ae75d792b5c,36.226.200.40,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
 2024-09-25T14:04:24.453Z,2024-09-25T09:54:50.634Z,8c87286bcfc831d9,114.44.136.242,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
+2024-09-25T16:04:50.907Z,2024-09-25T14:29:29.384Z,8c888a02c9c37980,143.198.195.2,//wp/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",BLOCK,SG
+2024-09-25T16:04:50.908Z,2024-09-25T14:29:46.687Z,8c8846603eb1ce25,43.134.173.99,/.env,Empty string,BLOCK,SG
