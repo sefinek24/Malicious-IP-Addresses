@@ -581,7 +581,6 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-24T20:04:53.880Z,2024-09-24T19:43:18.195Z,8c81ef784b6865f3,95.217.1.198,/test,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0,BLOCK,FI
 2024-09-24T20:04:53.880Z,2024-09-24T19:43:20.578Z,8c81ee94ce6508f4,36.226.199.20,/genshin-stella-mod,Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),BLOCK,TW
 2024-09-24T20:04:53.881Z,2024-09-24T19:43:29.015Z,8c81d5485a0662f0,2a0b:f4c2:2::38,/favicon.ico,Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0,BLOCK,T1
-2024-09-24T22:04:21.644Z,2024-09-24T21:44:18.754Z,8c83325c2fdf8801,125.160.115.218,//video/stella/GenshinImpact_kTfXreFQMyHz.effects.mp4,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",BLOCK,ID
 2024-09-24T22:04:21.645Z,2024-09-24T21:44:21.377Z,8c832e5548f144bb,119.13.111.43,/generated/v1/rpz/porn/StevenBlack,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47",CHALLENGE,SG
 2024-09-24T22:04:21.645Z,2024-09-24T21:44:32.724Z,8c8319971f10bdc3,52.178.179.62,/plugins.php,Empty string,BLOCK,IE
 2024-09-24T22:04:21.645Z,2024-09-24T21:44:40.601Z,8c8315b0acbb5b39,91.203.144.194,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
