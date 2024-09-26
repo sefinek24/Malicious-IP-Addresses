@@ -737,3 +737,11 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-26T04:05:26.740Z,2024-09-26T02:44:12.301Z,8c8c8cbc0abe3f53,68.178.166.166,/wp-login.php,Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0,BLOCK,US
 2024-09-26T04:05:26.740Z,2024-09-26T02:44:20.424Z,8c8c83929a9e1b7b,52.178.138.12,/adminfuns.php7,Empty string,BLOCK,IE
 2024-09-26T04:05:26.740Z,2024-09-26T02:44:30.402Z,8c8c7cb25f2b6310,185.220.101.69,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",BLOCK,T1
+2024-09-26T06:06:01.109Z,2024-09-26T04:45:24.042Z,8c8dd209f820716f,38.242.157.132,/.env,python-requests/2.32.3,BLOCK,DE
+2024-09-26T06:06:01.110Z,2024-09-26T04:45:29.270Z,8c8dc6be89d70f5b,198.98.50.244,/indexbak.php,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0,BLOCK,US
+2024-09-26T06:06:01.110Z,2024-09-26T04:45:44.231Z,8c8db1d0ded3bd7c,43.136.19.9,/xmlrpc.php,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0,BLOCK,CN
+2024-09-26T06:06:01.110Z,2024-09-26T04:45:49.248Z,8c8da7ddcb6962cc,185.220.101.13,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36",BLOCK,T1
+2024-09-26T06:06:01.110Z,2024-09-26T04:46:01.849Z,8c8d88369fa7ce02,202.40.176.34,/wp-login.php,Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0,BLOCK,BD
+2024-09-26T06:06:01.110Z,2024-09-26T04:46:24.640Z,8c8d65e1ce0caf8e,172.105.193.238,/genshin-stella-mod,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:114.0) Gecko/20100101 Firefox/114.0,MANAGED_CHALLENGE,JP
+2024-09-26T06:06:01.110Z,2024-09-26T04:46:30.263Z,8c8d5c8f792d8cee,179.43.159.201,/,"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-26T06:06:01.110Z,2024-09-26T04:46:32.722Z,8c8d5c830ba337f7,23.154.177.20,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
