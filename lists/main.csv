@@ -724,3 +724,16 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-26T02:26:33.637Z,2024-09-26T00:41:20.433Z,8c8bfa1f2d4c1774,3.91.110.116,/,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36",CHALLENGE,US
 2024-09-26T02:26:33.637Z,2024-09-26T00:41:29.805Z,8c8bdf655ac62add,36.226.199.107,/genshin-stella-mod,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.5518.898 Safari/537.36",CHALLENGE,TW
 2024-09-26T02:26:33.637Z,2024-09-26T00:41:36.184Z,8c8bd28bfeeb0cb7,36.229.68.167,/genshin-stella-mod,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.9527.181 Safari/537.36",CHALLENGE,TW
+2024-09-26T04:05:26.739Z,2024-09-26T02:42:49.577Z,8c8d12a88a196b45,204.8.96.82,/,"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-26T04:05:26.739Z,2024-09-26T02:42:53.543Z,8c8d0c2a382fd279,159.89.104.182,/wp-login.php,Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0,BLOCK,DE
+2024-09-26T04:05:26.740Z,2024-09-26T02:42:57.872Z,8c8d071e7ae8bdc8,13.94.93.23,/wp-content/autoload_classmap.php,Empty string,BLOCK,IE
+2024-09-26T04:05:26.740Z,2024-09-26T02:43:10.342Z,8c8cf567fa8dd370,185.126.202.247,/wp-login.php,Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0,BLOCK,IR
+2024-09-26T04:05:26.740Z,2024-09-26T02:43:14.484Z,8c8cf3da88828f8a,72.74.145.106,/genshin-stella-mod,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0,MANAGED_CHALLENGE,US
+2024-09-26T04:05:26.740Z,2024-09-26T02:43:37.695Z,8c8cc8f34eb46702,192.42.116.187,/genshin-stella-mod,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Vivaldi/5.3.2679.68",MANAGED_CHALLENGE,T1
+2024-09-26T04:05:26.740Z,2024-09-26T02:43:40.066Z,8c8cc8f11a5e62cd,185.220.101.2,/genshin-stella-mod,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Vivaldi/5.3.2679.68",BLOCK,T1
+2024-09-26T04:05:26.740Z,2024-09-26T02:43:44.801Z,8c8cc6a57c0daa9e,159.203.34.62,/ads.txt,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36",CHALLENGE,CA
+2024-09-26T04:05:26.740Z,2024-09-26T02:43:51.764Z,8c8cc5005e019f75,91.92.244.110,//sito/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",BLOCK,BG
+2024-09-26T04:05:26.740Z,2024-09-26T02:43:57.609Z,8c8cc22cbaef6fa1,35.245.62.188,/wp-includes/css/buttons.css,Go-http-client/1.1,BLOCK,US
+2024-09-26T04:05:26.740Z,2024-09-26T02:44:12.301Z,8c8c8cbc0abe3f53,68.178.166.166,/wp-login.php,Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0,BLOCK,US
+2024-09-26T04:05:26.740Z,2024-09-26T02:44:20.424Z,8c8c83929a9e1b7b,52.178.138.12,/adminfuns.php7,Empty string,BLOCK,IE
+2024-09-26T04:05:26.740Z,2024-09-26T02:44:30.402Z,8c8c7cb25f2b6310,185.220.101.69,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",BLOCK,T1
