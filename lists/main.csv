@@ -712,3 +712,9 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-25T22:04:26.276Z,2024-09-25T20:36:49.179Z,8c8a71662f681be3,4.213.56.41,//wordpress/wp-includes/wlwmanifest.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",BLOCK,IN
 2024-09-25T22:04:26.276Z,2024-09-25T20:36:53.459Z,8c8a6bf3dc76b7d3,91.92.255.187,/wp-content/themes/seotheme/db.php,"Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36",BLOCK,BG
 2024-09-25T22:04:26.277Z,2024-09-25T20:36:59.572Z,8c8a610f2efad9fd,159.148.128.55,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47",CHALLENGE,US
+2024-09-26T00:17:50.400Z,2024-09-25T22:38:06.562Z,8c8b9f1af81cc1e5,13.94.102.185,/fw.php,Empty string,BLOCK,IE
+2024-09-26T00:17:50.400Z,2024-09-25T22:38:15.384Z,8c8b9d477c0ebf25,45.138.16.178,/generated/127.0.0.1/forks/oisd.nsfw.txt,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-26T00:17:50.400Z,2024-09-25T22:38:25.515Z,8c8b86f0ea660987,47.242.57.127,/.well-known/autoconfig/mail/config-v1.1.xml,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0",BLOCK,HK
+2024-09-26T00:17:50.400Z,2024-09-25T22:38:54.887Z,8c8b52b7c9d637fd,94.16.121.91,/,"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
+2024-09-26T00:17:50.400Z,2024-09-25T22:38:57.908Z,8c8b4ebc8dc05a9d,194.38.23.16,/admin/ckeditor/elfinder/php/connector.php,ALittle Client,BLOCK,UA
+2024-09-26T00:17:50.400Z,2024-09-25T22:39:03.936Z,8c8b417d6b9b63ac,2001:41d0:801:1000::2db,/.git/HEAD,python-requests/2.22.0,BLOCK,GB
