@@ -832,7 +832,6 @@ Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, C
 2024-09-26T20:04:56.049Z,2024-09-26T19:04:11.270Z,8c922bc89d8c9702,185.129.61.6,/,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
 2024-09-26T20:04:56.049Z,2024-09-26T19:04:15.538Z,8c9220edff19c7b0,157.173.114.0,/wp-admin/css/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36",BLOCK,DE
 2024-09-26T20:04:56.049Z,2024-09-26T19:04:22.167Z,8c921c3d2d3e52e9,114.36.182.246,/genshin-stella-mod,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.7646.151 Safari/537.36",CHALLENGE,TW
-2024-09-26T22:04:26.159Z,2024-09-25T18:33:51.789Z,8c89eb9bd8825c02,46.205.196.193,/favicon.ico,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",MANAGED_CHALLENGE,PL
 2024-09-26T22:04:26.160Z,2024-09-26T21:05:16.928Z,8c93712049a6bde5,40.113.88.49,/wp-includes/IXR/about.php,Empty string,BLOCK,IE
 2024-09-26T22:04:26.160Z,2024-09-26T21:05:27.298Z,8c936c571dac2ab7,111.248.154.119,/genshin-stella-mod,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2959.462 Safari/537.36",CHALLENGE,TW
 2024-09-26T22:04:26.160Z,2024-09-26T21:05:43.995Z,8c935108d814624d,178.17.174.164,/,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
