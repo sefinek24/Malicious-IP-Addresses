@@ -59,15 +59,15 @@ const removeByCriteria = (criteria, criteriaType) => {
 		const csvRemovedCount = removeFromFile(csvFilePath, ipsToRemove);
 		console.log(`Removed ${txtRemovedCount} lines from main.txt and ${csvRemovedCount} lines from main.csv containing IPs: ${ipsToRemove.join(', ')}`);
 	} else {
-		console.log(`No matching ${criteriaType} found in CSV for: ${criteria}`);
+		console.log(`No matching ${criteriaType.toUpperCase()} found in CSV for: ${criteria}`);
 	}
 };
 
 // Remove by endpoint
-// removeByCriteria('//video/stella/GenshinImpact_kTfXreFQMyHz.effects.mp4', 'endpoint');
+// removeByCriteria('', 'endpoint');
 
 // Remove by IP
-// removeByCriteria('36.226.199.20', 'ip');
+// removeByCriteria('', 'ip');
 
 // Remove by user-agent
-// removeByCriteria('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0', 'userAgent');
+// removeByCriteria('', 'userAgent');
