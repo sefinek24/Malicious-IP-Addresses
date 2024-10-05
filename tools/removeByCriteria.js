@@ -11,7 +11,7 @@ const removeFromFile = (filePath, patterns) => {
 	return originalData.length - filteredData.length;
 };
 
-const parseCSV = (csvContent) => {
+const parseCSV = csvContent => {
 	return csvContent.split('\n').map(line => {
 		const values = [];
 		let current = '';
