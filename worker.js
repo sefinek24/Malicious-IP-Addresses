@@ -55,7 +55,7 @@ const appendToFile = (filePath, content) => {
 		const existingRayIds = loadCsvRayIds(logsFilePath);
 
 		if (data.length > 0) {
-			ensureCsvHeader(logsFilePath, 'Timestamp UTC, Original Timestamp, RayID, IP, Endpoint, User-Agent, CF Action, Country');
+			ensureCsvHeader(logsFilePath, 'Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country');
 
 			data.forEach(entry => {
 				const { rayId, ip, endpoint, useragent, action, country, timestamp } = entry;
