@@ -28,12 +28,6 @@ const ensureCsvHeader = (filePath, header) => {
 	if (!fs.existsSync(filePath)) fs.writeFileSync(filePath, `${header}\n`);
 };
 
-const escapeCsvValue = value => {
-	return (typeof value === 'string' && (value.includes(',') || value.includes('\n')))
-		? `"${value.replace(/"/g, '""')}"`
-		: value;
-};
-
 const appendToFile = (filePath, content) => {
 	if (fs.existsSync(filePath)) {
 		fs.appendFileSync(filePath, `\n${content}`);
@@ -85,8 +79,8 @@ const appendToFile = (filePath, content) => {
 						new Date(timestamp).toISOString(),
 						rayId,
 						ip,
-						escapeCsvValue(endpoint),
-						escapeCsvValue(useragent),
+						`"${endpoint}"`,
+						`"${useragent}"`,
 						action,
 						country
 					].join(',') + '\n';
