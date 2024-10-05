@@ -10,7 +10,7 @@ const UA_WHITELIST = [
 	'Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.0.0 Safari/537.36'
 ];
 
-const loadUniqueIPsFromFile = (filePath) => {
+const loadUniqueIPsFromFile = filePath => {
 	const content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
 	const lines = content.split('\n').map(line => line.trim()).filter(line => line !== '');
 	return new Set(lines);
