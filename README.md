@@ -26,3 +26,6 @@ https://raw.githubusercontent.com/sefinek24/Malicious-IP-Addresses/main/lists/ma
 ## CSV file
 This file contains user agents, endpoints, and IP addresses that have been blacklisted.
 Not all IP addresses from [main.txt](lists/main.txt) are included in [main.csv](lists/main.csv).
+
+## Star
+If you find this repository helpful, please consider giving it a star. Thank you!
