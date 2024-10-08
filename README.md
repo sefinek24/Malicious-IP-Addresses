@@ -1,23 +1,28 @@
 # 📃 Malicious IP Address List
+This repository contains a list of IP addresses associated with various malicious activities on the network.
+Many of these addresses are part of botnets used to conduct cyberattacks, such as DDoS attacks.
 
-This repository contains a list of various IP addresses associated with different malicious activities on the network.
-Most of them are part of botnets used to carry out cyberattacks, such as DDoS (Distributed Denial of Service) attacks.
-
-Some of these IP addresses have been or are still being used to generate artificial traffic on websites.
-Such activities can deceive analytics systems, generate fake ad clicks, and more.
-Highly recommended if you are using Google AdSense.
+Some of these IP addresses have been, or are still being, used to generate artificial traffic on websites.
+Such activities can mislead analytics systems, inflate ad click counts, and more. This list is particularly useful for those using services like Google AdSense.
 
 ### Usage
 This list can be useful for network administrators, security researchers, and cybersecurity companies. It can help with:
-- Blocking malicious IP addresses on firewalls.
-- Analyzing threats and identifying suspicious network traffic.
-- Protecting against DDoS attacks and other network threats.
+- Blocking malicious IP addresses in firewalls.
+- Analyzing threats and detecting suspicious network traffic.
+- Defending against DDoS attacks and other network-related threats.
 
 ### Warning
-Blocking IP addresses should be done carefully to avoid blocking legitimate traffic.
-It is recommended to update the list regularly.
+Blocking IP addresses should be done with caution to avoid disrupting legitimate traffic.
+Regular updates to the list are recommended.
+
+## Cron
+The list is refreshed every 2 hours
 
 ## TXT file
 ```text
 https://raw.githubusercontent.com/sefinek24/Malicious-IP-Addresses/main/lists/main.txt
 ```
+
+## CSV file
+This file contains user agents, endpoints, and IP addresses that have been blacklisted.
+Not all IP addresses from [main.txt](lists/main.txt) are included in [main.csv](lists/main.csv).
