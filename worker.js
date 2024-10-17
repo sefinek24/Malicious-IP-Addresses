@@ -4,7 +4,7 @@ const path = require('node:path');
 const { version } = require('./package.json');
 
 const listFilePath = path.join(__dirname, 'lists', 'main.txt');
-const logsFilePath = path.join(__dirname, 'lists', 'main.csv');
+const logsFilePath = path.join(__dirname, 'lists', 'details.csv');
 
 const UA_WHITELIST = [
 	'Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.0.0 Safari/537.36'

@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const txtFilePath = path.join(__dirname, '../lists/main.txt');
-const csvFilePath = path.join(__dirname, '../lists/main.csv');
+const csvFilePath = path.join(__dirname, '../lists/details.csv');
 
 const removeFromFile = (filePath, patterns) => {
 	const originalData = fs.readFileSync(filePath, 'utf8').split('\n');
@@ -57,7 +57,7 @@ const removeByCriteria = (criteria, criteriaType) => {
 	if (ipsToRemove.length) {
 		const txtRemovedCount = removeFromFile(txtFilePath, ipsToRemove);
 		const csvRemovedCount = removeFromFile(csvFilePath, ipsToRemove);
-		console.log(`Removed ${txtRemovedCount} lines from main.txt and ${csvRemovedCount} lines from main.csv containing IPs: ${ipsToRemove.join(', ')}`);
+		console.log(`Removed ${txtRemovedCount} lines from main.txt and ${csvRemovedCount} lines from details.csv containing IPs: ${ipsToRemove.join(', ')}`);
 	} else {
 		console.log(`No matching ${criteriaType.toUpperCase()} found in CSV for: ${criteria}`);
 	}
