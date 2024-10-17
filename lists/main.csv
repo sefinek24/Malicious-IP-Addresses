@@ -7452,11 +7452,8 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-10-16T10:04:42.053Z,2024-10-16T09:18:59.562Z,8d3529cf1b5c1031,175.152.81.141,"/fwc","Mozilla/5.0101097241 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36",CHALLENGE,CN
 2024-10-16T10:04:42.053Z,2024-10-16T09:19:00.915Z,8d35299eb8f56373,1.85.217.223,"/fb","Mozilla/4.038533357 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1) QQBrowser/6.0",CHALLENGE,CN
 2024-10-16T10:04:42.053Z,2024-10-16T09:19:04.990Z,8d352733bced7c4f,171.116.42.200,"/","Mozilla/5.084743666 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",CHALLENGE,CN
-2024-10-16T16:04:29.823Z,2024-10-16T15:31:32.082Z,8d3915241d1f1083,199.45.155.101,"/","Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",BLOCK,US
 2024-10-16T16:04:29.824Z,2024-10-16T15:34:05.492Z,8d3876818d6b62fe,181.214.173.49,"/wp-login.php","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",BLOCK,DE
 2024-10-16T18:05:32.991Z,2024-10-16T17:37:57.907Z,8d39ca9e5e7a5137,112.134.168.29,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0",CHALLENGE,LK
-2024-10-16T18:05:32.992Z,2024-10-16T17:39:52.744Z,8d39834a2cb322eb,162.142.125.210,"/","Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",BLOCK,US
-2024-10-16T18:05:32.992Z,2024-10-16T17:41:13.266Z,8d39496a9e69515c,199.45.155.102,"/","Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",BLOCK,US
 2024-10-16T20:04:58.360Z,2024-10-16T19:44:56.710Z,8d3a84aefa67315a,149.40.58.148,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0",CHALLENGE,US
 2024-10-17T00:18:20.716Z,2024-10-17T00:00:48.270Z,8d3b9d096fb092cc,95.173.161.230,"/wp-login.php","Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0",BLOCK,TR
 2024-10-17T08:06:01.818Z,2024-10-17T06:22:26.448Z,8d3d8ec2fa12d492,125.99.185.162,"/xmlrpc.php","Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",BLOCK,IN
