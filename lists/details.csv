@@ -7396,7 +7396,6 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-10-10T04:05:17.915Z,2024-10-10T03:13:19.258Z,8d00026a3d429f58,179.61.156.220,"/","Mozilla/5.0 (X11; Linux i686; rv:114.0) Gecko/20100101 Firefox/114.0",CHALLENGE,AE
 2024-10-10T08:05:53.240Z,2024-10-08T22:04:58.901Z,8cf6956008af0fa5,207.148.25.153,"/milosna-grota/weryfikacja","Java/1.8.0_332",BLOCK,US
 2024-10-10T08:05:53.240Z,2024-10-09T08:29:38.311Z,8cfa038ffd570c4c,185.82.218.204,"/milosna-grota/weryfikacja","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",CHALLENGE,BG
-2024-10-10T08:05:53.240Z,2024-10-09T23:04:18.350Z,8cfed65e9c55b620,2a02:a313:2e0:fb80:5dae:52da:844b:ff5e,"/milosna-grota/weryfikacja/upload","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0",MANAGED_CHALLENGE,PL
 2024-10-10T08:05:53.241Z,2024-10-10T05:24:59.785Z,8d02067fcb27d360,216.24.216.165,"/wp-login.php","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",BLOCK,DE
 2024-10-10T10:04:41.954Z,2024-10-10T07:55:13.402Z,8d04ab2aeb899645,35.86.83.172,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Safari/537.36",CHALLENGE,US
 2024-10-10T10:04:41.954Z,2024-10-10T08:51:50.644Z,8d0531d37f0708fe,52.81.237.92,"/robots.txt","Go-http-client/1.1",BLOCK,CN
