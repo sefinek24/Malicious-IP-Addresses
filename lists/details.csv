@@ -567,16 +567,6 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-09-25T12:07:04.749Z,2024-09-25T11:57:58.423Z,8c87a5db9b21be3c,52.18.177.61,"/","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",CHALLENGE,IE
 2024-09-25T12:07:04.749Z,2024-09-25T11:58:04.291Z,8c87995fbc773275,43.201.153.87,"/","Mozilla/5.0 (Linux; Android 9; ASUS_X00TD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36",CHALLENGE,KR
 2024-09-25T12:07:04.749Z,2024-09-25T11:58:19.069Z,8c8763efdfe16539,23.154.177.26,"/","Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-09-25T14:04:24.453Z,2024-09-24T17:40:19.774Z,8c816782e95a08ee,114.44.136.68,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-24T19:42:42.664Z,8c825cafaac07e99,59.115.156.137,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-24T19:43:12.234Z,8c81f4b42b242abb,114.45.212.51,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-24T19:43:20.578Z,8c81ee94ce6508f4,36.226.199.20,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-24T21:44:54.275Z,8c82e191bd152ae1,36.228.11.114,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-24T21:45:10.153Z,8c82b479b84d1032,114.26.75.131,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-24T23:46:44.896Z,8c83b61f3a16cbaf,114.44.154.150,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-25T07:53:05.207Z,8c866d37395069b6,114.26.81.41,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-25T07:54:01.769Z,8c860ae75d792b5c,36.226.200.40,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
-2024-09-25T14:04:24.453Z,2024-09-25T09:54:50.634Z,8c87286bcfc831d9,114.44.136.242,"/genshin-stella-mod","Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",BLOCK,TW
 2024-09-25T16:04:50.907Z,2024-09-25T14:29:29.384Z,8c888a02c9c37980,143.198.195.2,"//wp/wp-includes/wlwmanifest.xml","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",BLOCK,SG
 2024-09-25T16:04:50.908Z,2024-09-25T14:29:46.687Z,8c8846603eb1ce25,43.134.173.99,"/.env","Empty string",BLOCK,SG
 2024-09-25T18:05:26.427Z,2024-09-25T16:30:47.961Z,8c8975d26aae2b6b,125.224.206.58,"/genshin-stella-mod","Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.8624.737 Safari/537.36",CHALLENGE,TW
@@ -1028,7 +1018,6 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-09-28T06:05:07.546Z,2024-09-28T03:47:22.163Z,8c9d5e8aed15cddd,31.56.4.171,"/","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:114.0) Gecko/20100101 Firefox/114.0",CHALLENGE,SG
 2024-09-28T06:05:07.546Z,2024-09-28T03:47:25.540Z,8c9d5e0c3d94823b,31.56.4.172,"/genshin-stella-mod","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:114.0) Gecko/20100101 Firefox/114.0",CHALLENGE,SG
 2024-09-28T06:05:07.546Z,2024-09-28T03:47:27.903Z,8c9d5e083db2a1ac,31.56.4.159,"/genshin-stella-mod","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:114.0) Gecko/20100101 Firefox/114.0",CHALLENGE,SG
-2024-09-28T06:05:07.546Z,2024-09-28T03:47:30.928Z,8c9d5ccfd8117c77,36.226.200.40,"/genshin-stella-mod","Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.6506.183 Safari/537.36",CHALLENGE,TW
 2024-09-28T06:05:07.546Z,2024-09-28T03:47:38.670Z,8c9d49b9cd37406d,49.156.0.9,"/","Mozilla/5.0 (Macintosh; Intel Mac OS X 12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Vivaldi/5.3.2679.68",CHALLENGE,KH
 2024-09-28T08:05:31.513Z,2024-09-28T05:49:13.412Z,8c9eaa05daf9714d,134.122.135.139,"/e/DoInfo/AddInfo.php","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",BLOCK,HK
 2024-09-28T08:05:31.513Z,2024-09-28T05:49:17.092Z,8c9ea3fdb8e422e1,3.145.49.130,"/stella-mod-setup/v8.2.0.0.exe","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",CHALLENGE,US
