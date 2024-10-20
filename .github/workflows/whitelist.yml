@@ -1,12 +1,12 @@
-name: Fetch IPs
+name: Update whitelists
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # At minute 0 past every 2nd hour.
+    - cron: '0 */3 * * *' # At minute 0 past every 3rd hour.
   workflow_dispatch:
 
 jobs:
-  fetch-ips:
+  update-whitelists:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,10 +24,11 @@ jobs:
       - name: Install dependencies
         run: npm ci --omit=dev
 
-      - name: Fetch IPs from API and update files
-        run: node index.js
-        env:
-          SEFIN_API_KEY: ${{ secrets.SEFIN_API_KEY }}
+      - name: Process the Google whitelist
+        run: node scripts/google.js
+
+      - name: Process the Cloudflare whitelist
+        run: node scripts/cloudflare.js
 
       - name: Add files to staging
         run: git add .
@@ -40,7 +41,7 @@ jobs:
             MODIFIED_FILES=$(git diff --name-only HEAD)
             FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
             if [ "$FILE_COUNT" -gt 0 ]; then
-              git commit -am "Update the list of malicious IP addresses [$FILE_COUNT files]" -m "$MODIFIED_FILES"
+              git commit -am "Automatic whitelist update [$FILE_COUNT files]" -m "$MODIFIED_FILES"
               git push origin main
             else
               echo "Canceled. No changes were made."
