@@ -7417,3 +7417,6 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-10-20T06:05:45.914Z,2024-10-20T04:09:25.135Z,8d561c184ae2d5ed,198.235.24.168,"/","Empty string",BLOCK,US
 2024-10-20T08:05:57.932Z,2024-10-20T06:11:44.034Z,8d56aaf698b5a8c9,2405:201:403d:a043:ecd2:ddce:b359:dfe9,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0",CHALLENGE,IN
 2024-10-20T08:05:57.932Z,2024-10-20T06:13:18.659Z,8d56377e3a7da8cc,89.187.162.103,"/wp-login.php","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",BLOCK,SG
+2024-10-20T18:04:57.279Z,2024-10-20T10:37:30.539Z,8d57fb386a94e0c7,188.214.122.107,"/.git/config","Go-http-client/1.1",BLOCK,EG
+2024-10-20T18:04:57.279Z,2024-10-20T10:38:05.314Z,8d57b6a80e5702bf,198.235.24.156,"/","Empty string",BLOCK,US
+2024-10-20T18:04:57.279Z,2024-10-20T14:42:51.559Z,8d59153a1c718023,3.91.110.116,"/","PycURL/7.45.2 libcurl/7.64.0 OpenSSL/1.1.1n zlib/1.2.11 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh2/1.8.0 nghttp2/1.36.0 librtmp/2.3",BLOCK,US
