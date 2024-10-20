@@ -25,7 +25,7 @@ jobs:
         run: npm ci --omit=dev
 
       - name: Fetch IPs from API and update files
-        run: node worker.js
+        run: node index.js
         env:
           SEFIN_API_KEY: ${{ secrets.SEFIN_API_KEY }}
 
