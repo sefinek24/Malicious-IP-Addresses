@@ -7446,3 +7446,4 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-10-23T18:05:43.940Z,2024-10-23T16:50:44.749Z,8d72cb35bf8d3260,80.95.83.75,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0",MANAGED_CHALLENGE,HU
 2024-10-24T08:05:55.269Z,2024-10-24T07:16:53.774Z,8d7801d33d2a2aae,52.176.144.252,"/","Empty string",BLOCK,US
 2024-10-24T08:05:55.269Z,2024-10-24T07:17:01.087Z,8d77fd03d97d5b8a,2a00:c760:83:def:aced:ffff:b921:3617,"/wp-login.php","Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0",BLOCK,HU
+2024-10-24T12:07:27.202Z,2024-10-24T11:25:37.669Z,8d7976a8af609588,34.254.226.167,"/","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36",MANAGED_CHALLENGE,IE
