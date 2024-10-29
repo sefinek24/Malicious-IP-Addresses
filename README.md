@@ -16,7 +16,7 @@ Blocking IP addresses should be done with caution to avoid disrupting legitimate
 Regular updates to the list are recommended.
 
 ## Cron
-The list is refreshed every 2 hours.
+The list is usually updated every 2 hours.
 
 ## TXT file
 ```text
