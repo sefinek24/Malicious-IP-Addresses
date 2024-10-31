@@ -20,7 +20,7 @@ The list is usually updated every 2 hours.
 
 ## TXT file
 ```text
-https://raw.githubusercontent.com/sefinek24/Malicious-IP-Addresses/main/lists/main.txt
+https://raw.githubusercontent.com/sefinek/Malicious-IP-Addresses/main/lists/main.txt
 ```
 
 ## CSV file

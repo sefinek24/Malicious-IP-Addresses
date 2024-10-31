@@ -44,7 +44,7 @@ const appendToFile = (filePath, content) => {
 		const res = await axios.get('https://api.sefinek.net/api/v2/cloudflare-waf-abuseipdb/get', {
 			headers: {
 				'Authorization': apiKey,
-				'User-Agent': `Mozilla/5.0 (compatible; Malicious-IP-Addresses/${version}; +https://github.com/sefinek24/Malicious-IP-Addresses)`
+				'User-Agent': `Mozilla/5.0 (compatible; Malicious-IP-Addresses/${version}; +https://github.com/sefinek/Malicious-IP-Addresses)`
 			}
 		});
 
