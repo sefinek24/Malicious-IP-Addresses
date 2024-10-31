@@ -7,7 +7,7 @@ const listFilePath = path.join(__dirname, 'lists', 'main.txt');
 const logsFilePath = path.join(__dirname, 'lists', 'details.csv');
 
 const UA_WHITELIST = [
-	'Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.0.0 Safari/537.36'
+	'Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.0.0 Safari/537.36',
 ];
 
 const loadUniqueIPsFromFile = filePath => {
@@ -44,8 +44,8 @@ const appendToFile = (filePath, content) => {
 		const res = await axios.get('https://api.sefinek.net/api/v2/cloudflare-waf-abuseipdb/get', {
 			headers: {
 				'Authorization': apiKey,
-				'User-Agent': `Mozilla/5.0 (compatible; Malicious-IP-Addresses/${version}; +https://github.com/sefinek/Malicious-IP-Addresses)`
-			}
+				'User-Agent': `Mozilla/5.0 (compatible; Malicious-IP-Addresses/${version}; +https://github.com/sefinek/Malicious-IP-Addresses)`,
+			},
 		});
 
 		const data = res.data?.logs || [];
@@ -82,7 +82,7 @@ const appendToFile = (filePath, content) => {
 						`"${endpoint}"`,
 						`"${useragent}"`,
 						action,
-						country
+						country,
 					].join(',') + '\n';
 
 					fs.appendFileSync(logsFilePath, logEntry);

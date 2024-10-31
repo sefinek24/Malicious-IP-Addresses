@@ -4,7 +4,7 @@ const path = require('node:path');
 
 const URLS = [
 	'https://www.cloudflare.com/ips-v4',
-	'https://www.cloudflare.com/ips-v6'
+	'https://www.cloudflare.com/ips-v6',
 ];
 
 const FILE_PATH = path.resolve(__dirname, '..', 'whitelists', 'cloudflare.txt');

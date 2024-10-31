@@ -2,7 +2,7 @@ const processUrls = require('../utils/processUrls.js');
 const path = require('node:path');
 
 const URLS = [
-	'https://www.bing.com/toolbox/bingbot.json'
+	'https://www.bing.com/toolbox/bingbot.json',
 ];
 
 const FILE_PATH = path.resolve(__dirname, '..', 'whitelists', 'bingbot.txt');
