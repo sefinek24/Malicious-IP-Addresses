@@ -21,7 +21,7 @@
     "axios": "^1.7.7"
   },
   "devDependencies": {
-    "@eslint/js": "^9.13.0",
+    "@eslint/js": "^9.14.0",
     "globals": "^15.11.0"
   }
 }
