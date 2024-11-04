@@ -7483,3 +7483,4 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-11-04T10:05:09.057Z,2024-11-04T07:50:20.933Z,8dd26f790b9156c6,185.40.4.149,"/js/progressbar.js","Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)",MANAGED_CHALLENGE,T1
 2024-11-04T10:05:09.057Z,2024-11-04T07:50:22.302Z,8dd26f44197c10d5,18.219.59.26,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51",MANAGED_CHALLENGE,US
 2024-11-04T10:05:09.057Z,2024-11-04T07:50:23.653Z,8dd26f43d90c61b6,18.118.205.207,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51",MANAGED_CHALLENGE,US
+2024-11-04T14:04:31.979Z,2024-11-04T12:01:34.599Z,8dd3c557d84f6f10,198.235.24.155,"/","Empty string",BLOCK,US
