@@ -7501,3 +7501,4 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-11-07T00:18:24.916Z,2024-11-06T22:48:56.709Z,8de80c315bf75d66,92.222.181.205,"/wp-login.php","Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0",BLOCK,FR
 2024-11-07T04:05:24.180Z,2024-11-07T03:00:45.100Z,8de9d7e5fd5ace4f,103.42.206.187,"/wp-login.php","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",BLOCK,MY
 2024-11-07T12:07:15.746Z,2024-11-07T09:23:41.988Z,8debc1d8fb9d9f81,185.246.188.74,"/","Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)",MANAGED_CHALLENGE,T1
+2024-11-07T14:04:15.990Z,2024-11-07T11:29:53.246Z,8deca1983cbc027c,87.249.132.29,"/wp-login.php","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",BLOCK,DE
