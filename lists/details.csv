@@ -7511,3 +7511,5 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-11-09T08:05:13.933Z,2024-11-09T06:01:01.889Z,8dfb8262cd2f4a56,198.235.24.40,"/","Empty string",BLOCK,US
 2024-11-09T08:05:13.933Z,2024-11-09T06:03:24.998Z,8dfb02a1cd4e71a2,185.62.87.185,"/wp-login.php","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",BLOCK,GB
 2024-11-09T10:04:19.234Z,2024-11-09T08:06:05.811Z,8dfbbfeb8c305f8a,18.141.181.255,"/","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36",MANAGED_CHALLENGE,SG
+2024-11-09T12:06:10.427Z,2024-11-09T10:07:37.638Z,8dfccfbe0e625ed8,35.161.55.221,"/js/progressbar.js","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",MANAGED_CHALLENGE,US
+2024-11-09T12:06:10.428Z,2024-11-09T10:07:48.407Z,8dfca94dca8a71d8,106.44.234.6,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",MANAGED_CHALLENGE,CN
