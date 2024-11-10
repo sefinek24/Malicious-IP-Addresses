@@ -58,9 +58,9 @@ const appendToFile = (filePath, content) => {
 			ensureCsvHeader(logsFilePath, 'Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country');
 
 			data.forEach(entry => {
-				const { rayId, ip, endpoint, useragent, action, country, timestamp } = entry;
+				const { rayId, ip, endpoint, userAgent, action, country, timestamp } = entry;
 
-				if (UA_WHITELIST.includes(useragent)) {
+				if (UA_WHITELIST.includes(userAgent)) {
 					skippedEntries++;
 					return;
 				}
@@ -80,7 +80,7 @@ const appendToFile = (filePath, content) => {
 						rayId,
 						ip,
 						`"${endpoint}"`,
-						`"${useragent}"`,
+						`"${userAgent}"`,
 						action,
 						country,
 					].join(',') + '\n';
