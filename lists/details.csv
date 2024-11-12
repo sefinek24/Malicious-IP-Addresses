@@ -8240,7 +8240,6 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-11-11T20:04:39.407Z,2024-11-11T17:35:54.581Z,8e0fed54cd663a04,23.239.51.74,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",MANAGED_CHALLENGE,CA
 2024-11-11T20:04:39.407Z,2024-11-11T17:35:54.881Z,8e0fe857eb628516,103.231.173.170,"/phpcms/modules/formguide/install/templates/show_js.html","Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)",BLOCK,US
 2024-11-11T20:04:39.407Z,2024-11-11T17:35:55.647Z,8e0fe7c30c2c2ee7,27.115.124.53,"/","Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36",MANAGED_CHALLENGE,CN
-2024-11-11T20:04:39.407Z,2024-11-11T17:35:55.874Z,8e0fe34d1fc4d51a,5.29.12.12,"/cdn-cgi/speculation","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0",MANAGED_CHALLENGE,IL
 2024-11-11T20:04:39.407Z,2024-11-11T17:35:56.596Z,8e0fddf77f291c95,77.246.99.200,"/","Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:114.0) Gecko/20100101 Firefox/114.0",MANAGED_CHALLENGE,NL
 2024-11-11T20:04:39.407Z,2024-11-11T17:35:59.161Z,8e0fc622cb4d6a66,185.202.108.151,"/","Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:114.0) Gecko/20100101 Firefox/114.0",MANAGED_CHALLENGE,US
 2024-11-11T20:04:39.407Z,2024-11-11T17:35:59.407Z,8e0fc62119987752,193.233.89.193,"/","Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:114.0) Gecko/20100101 Firefox/114.0",MANAGED_CHALLENGE,RU
