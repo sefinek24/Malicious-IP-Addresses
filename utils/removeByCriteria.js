@@ -34,8 +34,8 @@ const parseCSV = csvContent => {
 
 const filterByCriteria = (csvData, criteria, columnIndex) => {
 	return csvData.filter(line => {
-		const columnValue = line[columnIndex] && line[columnIndex].toLowerCase();
-		return columnValue && columnValue.includes(criteria.toLowerCase());
+		const columnValue = line[columnIndex];
+		return columnValue?.includes(criteria);
 	});
 };
 
@@ -64,7 +64,7 @@ const removeByCriteria = (criteria, criteriaType) => {
 };
 
 // Remove by endpoint
-// removeByCriteria('', 'endpoint');
+// removeByCriteria('/generated/', 'endpoint');
 
 // Remove by IP
 // removeByCriteria('', 'ip');
