@@ -546,8 +546,6 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-09-25T06:06:02.581Z,2024-09-25T05:51:57.063Z,8c85758ada1192c5,85.163.36.3,"/wp-content/plugins/wp-fastest-cache/readme.txt","python-requests/2.32.3",BLOCK,CZ
 2024-09-25T06:06:02.581Z,2024-09-25T05:51:59.898Z,8c856f765c43b785,147.45.114.227,"/.env","python-requests/2.26.0",BLOCK,NL
 2024-09-25T06:06:02.581Z,2024-09-25T05:52:02.457Z,8c8565983ca64a24,35.220.254.137,"/genshin-stella-mod","Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:114.0) Gecko/20100101 Firefox/114.0",MANAGED_CHALLENGE,HK
-2024-09-25T06:06:02.581Z,2024-09-25T05:52:05.020Z,8c85654aaccf0e50,185.40.4.149,"/","Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-09-25T06:06:02.581Z,2024-09-25T05:52:07.983Z,8c8563161ab3bbe7,91.195.92.9,"/","Mozilla/5.0 (Windows NT 10.0; WOW64; rv:76.0) Gecko/20100101 Firefox/76.0",CHALLENGE,PL
 2024-09-25T08:06:03.395Z,2024-09-25T07:53:13.787Z,8c8663c6fad1666c,45.90.60.90,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",CHALLENGE,RU
 2024-09-25T08:06:03.395Z,2024-09-25T07:53:20.930Z,8c8663adbfcac905,176.53.217.181,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",CHALLENGE,RU
 2024-09-25T08:06:03.395Z,2024-09-25T07:53:57.975Z,8c86111e78ca619a,13.89.48.83,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.76 Safari/537.36",CHALLENGE,US
@@ -7479,7 +7477,6 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-11-04T10:05:09.056Z,2024-11-04T07:49:06.724Z,8dd2d386fc9a83a4,205.169.39.232,"/js/progressbar.js","Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",MANAGED_CHALLENGE,US
 2024-11-04T10:05:09.056Z,2024-11-04T07:49:08.969Z,8dd2d09cc8c3e3dd,188.214.122.99,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36",MANAGED_CHALLENGE,EG
 2024-11-04T10:05:09.057Z,2024-11-04T07:49:10.249Z,8dd2cfc44ef50e4a,192.145.127.214,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36",MANAGED_CHALLENGE,IT
-2024-11-04T10:05:09.057Z,2024-11-04T07:50:20.933Z,8dd26f790b9156c6,185.40.4.149,"/js/progressbar.js","Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)",MANAGED_CHALLENGE,T1
 2024-11-04T10:05:09.057Z,2024-11-04T07:50:22.302Z,8dd26f44197c10d5,18.219.59.26,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51",MANAGED_CHALLENGE,US
 2024-11-04T10:05:09.057Z,2024-11-04T07:50:23.653Z,8dd26f43d90c61b6,18.118.205.207,"/js/progressbar.js","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51",MANAGED_CHALLENGE,US
 2024-11-04T14:04:31.979Z,2024-11-04T12:01:34.599Z,8dd3c557d84f6f10,198.235.24.155,"/","Empty string",BLOCK,US
@@ -9312,198 +9309,40 @@ Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,CFAction,Country
 2024-11-13T10:04:50.694Z,2024-11-12T07:12:13.205Z,8e149eedcbdc2ca6,205.169.39.2,"/generated/v1/adguard/redirect/blocklistproject/redirect.fork.txt","Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36",BLOCK,US
 2024-11-13T10:04:50.694Z,2024-11-12T07:12:24.925Z,8e1490b14c4fb1df,185.241.208.115,"/generated/127.0.0.1/forks/oisd.nsfw.txt","Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
 2024-11-13T10:04:50.694Z,2024-11-12T07:13:11.945Z,8e14452e2d85ca95,185.220.101.11,"/","Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:28.208Z,8e1580ec8993bf2e,178.235.249.111,"/generated/v1/adguard/other/polish-blocklists/PolishFiltersTeam/KADhosts.fork.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:32.297Z,8e157bf3481939f8,89.14.191.190,"/generated/adguard/forks/0Zinc.easylist.txt","Go-http-client/1.1",BLOCK,DE
 2024-11-13T10:04:50.694Z,2024-11-12T09:32:33.120Z,8e15772e0dec6622,192.42.116.18,"/","Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:36.458Z,8e1572548848e489,31.211.77.226,"/generated/0.0.0.0/forks/craiu.mobiletrackers.txt","Go-http-client/1.1",BLOCK,RU
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:38.403Z,8e156eb4babdb7e8,81.204.115.146,"/generated/v1/adguard/ads/0Zinc/easylist.fork.txt","Go-http-client/1.1",BLOCK,NL
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:39.796Z,8e156be00a79e1aa,106.213.80.21,"/generated/v1/adguard/ads/blocklistproject/youtube.fork.txt","Go-http-client/1.1",BLOCK,IN
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:42.333Z,8e155ceade5e40af,182.253.54.202,"/generated/v1/0.0.0.0/games/valorant.txt","Go-http-client/1.1",BLOCK,ID
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:44.010Z,8e1559232a5eacab,129.222.11.146,"/generated/v1/0.0.0.0/fakenews/marktron/hosts.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:44.421Z,8e1559028d74a89f,80.89.79.156,"/generated/adguard/forks/PolishFiltersTeam.KADhosts.txt","Go-http-client/1.1",BLOCK,LV
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:53.430Z,8e1557be8c76cd9a,139.59.170.205,"/generated/adguard/forks/blocklistproject.youtube.txt","Go-http-client/1.1",BLOCK,GB
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:56.353Z,8e154d42899b76c1,71.56.131.126,"/generated/v1/adguard/tracking-and-telemetry/neodevpro/host.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:57.053Z,8e154b212e8c5ab3,31.147.223.50,"/generated/0.0.0.0/malicious/main.txt","Go-http-client/1.1",BLOCK,HR
-2024-11-13T10:04:50.694Z,2024-11-12T09:32:58.438Z,8e154a0a38f9c414,91.246.72.52,"/generated/adguard/forks/blocklistproject.scam.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.694Z,2024-11-12T09:33:00.378Z,8e154603681ff854,2.51.180.96,"/generated/v1/0.0.0.0/games/valorant.txt","Go-http-client/1.1",BLOCK,AE
-2024-11-13T10:04:50.694Z,2024-11-12T09:33:01.373Z,8e15436548c4bc42,31.45.237.218,"/generated/0.0.0.0/forks/blocklistproject.ransomware.txt","Go-http-client/1.1",BLOCK,HR
-2024-11-13T10:04:50.694Z,2024-11-12T09:33:08.172Z,8e1537cc7906533f,73.26.214.128,"/generated/adguard/forks/blocklistproject.youtube.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.694Z,2024-11-12T09:33:09.152Z,8e153758d9ceb9a1,94.110.204.108,"/generated/v1/0.0.0.0/ads/0Zinc/easylist.fork.txt","Go-http-client/1.1",BLOCK,BE
-2024-11-13T10:04:50.694Z,2024-11-12T09:33:09.732Z,8e1535302e7510af,24.208.130.108,"/generated/0.0.0.0/sites/booth.pm.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.694Z,2024-11-12T09:33:18.060Z,8e1532320a909968,152.53.2.76,"/generated/0.0.0.0/forks/blocklistproject.redirect.txt","Go-http-client/2.0",BLOCK,AT
-2024-11-13T10:04:50.694Z,2024-11-12T09:33:20.600Z,8e152d672c4ca528,71.229.127.243,"/generated/v1/0.0.0.0/ads/MajkiIT/SmartTV-ads.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.695Z,2024-11-12T09:33:22.072Z,8e152af69845f987,157.131.73.148,"/generated/adguard/forks/kboghdady.youtubelist.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.695Z,2024-11-12T09:33:22.635Z,8e152af17e861246,99.82.237.194,"/generated/adguard/forks/chadmayfield.pi_blocklist_porn_all.txt","Go-http-client/1.1",BLOCK,US
 2024-11-13T10:04:50.695Z,2024-11-12T09:33:23.590Z,8e152a4c395e9708,192.42.116.198,"/","Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36",MANAGED_CHALLENGE,T1
 2024-11-13T10:04:50.695Z,2024-11-12T09:33:43.027Z,8e14f091bb430da2,82.137.255.254,"/generated/v1/127.0.0.1/scam/jarelllama/scam.fork.txt","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36",MANAGED_CHALLENGE,SY
 2024-11-13T10:04:50.695Z,2024-11-12T09:33:44.890Z,8e14dce7ec966658,185.246.188.74,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.695Z,2024-11-12T11:34:37.294Z,8e1634af3c32b0dd,62.107.55.146,"/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt","Go-http-client/1.1",BLOCK,DK
 2024-11-13T10:04:50.695Z,2024-11-12T11:34:37.948Z,8e1633a1af6c67cc,193.26.115.228,"/","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.695Z,2024-11-12T11:34:45.308Z,8e1630eed90441cf,37.24.91.200,"/generated/0.0.0.0/forks/blocklistproject.redirect.txt","Go-http-client/2.0",BLOCK,DE
-2024-11-13T10:04:50.695Z,2024-11-12T11:34:48.904Z,8e1629d8e9375acd,178.235.249.185,"/generated/adguard/ads/blocklistproject.ads.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.695Z,2024-11-12T11:34:53.392Z,8e161e3aab4d6087,98.30.196.224,"/generated/v1/0.0.0.0/ads/blocklistproject/youtube.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.695Z,2024-11-12T11:34:54.898Z,8e1615ae2e273491,81.190.161.146,"/generated/v1/0.0.0.0/ads/FadeMind/UncheckyAds.fork.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.695Z,2024-11-12T11:34:57.299Z,8e160d91cc8e6035,182.253.54.200,"/generated/v1/0.0.0.0/games/league-of-legends.txt","Go-http-client/1.1",BLOCK,ID
-2024-11-13T10:04:50.695Z,2024-11-12T11:34:58.228Z,8e160adc49217c86,1.145.5.5,"/generated/v1/0.0.0.0/porn/StevenBlack/porn.fork.txt","Go-http-client/1.1",BLOCK,AU
 2024-11-13T10:04:50.695Z,2024-11-12T11:34:58.504Z,8e160abaadf90eab,185.132.53.12,"/","Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.695Z,2024-11-12T11:34:59.283Z,8e1605119ac000d2,82.64.172.122,"/generated/adguard/forks/Snota418.Crypto-streams.txt","Go-http-client/1.1",BLOCK,FR
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:02.026Z,8e15fb113d27d37c,5.150.227.32,"/generated/adguard/forks/abuse.urlhaus.txt","Go-http-client/1.1",BLOCK,SE
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:02.795Z,8e15f8b11cd2371f,5.190.105.121,"/generated/v1/0.0.0.0/porn/ShadowWhisperer/adult.fork.txt","Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-J700H) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.2 Chrome/83.0.4103.106 Mobile Safari/537.36",MANAGED_CHALLENGE,IR
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:07.798Z,8e15e11a09a442df,162.0.177.68,"/generated/v1/adguard/phishing/phishing.army/blocklist-extended.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:09.231Z,8e15e086e9e37ce5,36.236.252.23,"/generated/v1/adguard/spam/stopforumspam/toxic-domains-whole.fork.txt","Go-http-client/1.1",BLOCK,TW
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:11.165Z,8e15df92adb9e093,109.50.188.235,"/generated/v1/0.0.0.0/phishing.txt","Go-http-client/1.1",BLOCK,PT
 2024-11-13T10:04:50.695Z,2024-11-12T11:35:18.695Z,8e15c21b2e1ce4b3,185.100.87.192,"/","Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:19.942Z,8e15b69968562189,46.45.68.226,"/generated/v1/adguard/ads/blocklistproject/youtube.fork.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:21.773Z,8e15b1040a4a923f,188.61.227.185,"/generated/0.0.0.0/forks/blocklistproject.phishing.txt","Go-http-client/1.1",BLOCK,CH
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:24.000Z,8e15af245bc52db9,207.102.138.33,"/generated/v1/noip/ads/firebog/AdguardDNS.fork.txt","Go-http-client/2.0",BLOCK,CA
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:29.600Z,8e15a5090fc9c9d3,89.149.126.96,"/generated/v1/adguard/ads/0Zinc/easylist.fork.txt","Go-http-client/1.1",BLOCK,MD
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:29.925Z,8e15a43af9153b8d,72.65.106.174,"/generated/v1/0.0.0.0/spam/stopforumspam/toxic-domains-whole.fork.txt","Go-http-client/2.0",BLOCK,US
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:33.646Z,8e15a1f03becbbd8,31.183.13.56,"/generated/v1/adguard/test.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:34.139Z,8e15a1a3bd10a8de,103.156.128.114,"/generated/v1/adguard/gambling/StevenBlack/hosts.fork.txt","Go-http-client/1.1",BLOCK,ID
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:36.005Z,8e15a00fdaf7c1a8,185.100.196.119,"/generated/0.0.0.0/forks/hoshsadiq.adblock-nocoin-list.txt","Go-http-client/1.1",BLOCK,CZ
-2024-11-13T10:04:50.695Z,2024-11-12T11:35:38.813Z,8e159a374e7ae0a2,5.249.55.18,"/generated/adguard/useless-websites.txt","Go-http-client/1.1",BLOCK,PT
 2024-11-13T10:04:50.695Z,2024-11-12T11:35:45.321Z,8e1589476eade227,205.210.31.39,"/","Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com",BLOCK,US
 2024-11-13T10:04:50.695Z,2024-11-12T13:36:43.512Z,8e16d87b6cbd8e03,191.107.255.108,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",BLOCK,CO
-2024-11-13T10:04:50.695Z,2024-11-12T13:36:46.467Z,8e16d2ea69e834f1,83.9.11.15,"/generated/v1/adguard/other/polish-blocklists/cert.pl/domains-hosts.fork.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.695Z,2024-11-12T13:36:48.535Z,8e16cf93faeeb9a9,117.151.29.232,"/generated/v1/noip/amp/developerdan/amp-hosts-extended.fork.txt","Go-http-client/1.1",BLOCK,CN
-2024-11-13T10:04:50.695Z,2024-11-12T13:36:49.291Z,8e16ce5beb32b08e,172.12.76.20,"/generated/adguard/social/facebook.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.695Z,2024-11-12T13:36:58.098Z,8e16bdfbbee42611,216.247.28.251,"/generated/v1/0.0.0.0/ads/ShadowWhisperer/Ads.fork.txt","Go-http-client/1.1",BLOCK,PH
-2024-11-13T10:04:50.695Z,2024-11-12T13:36:58.577Z,8e16bcb51ed01c3d,46.184.223.55,"/generated/v1/adguard/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt","Go-http-client/1.1",BLOCK,BH
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:03.170Z,8e16ba4c9c46636b,240e:369:8150:ea00:e56d:a18d:990a:ce02,"/generated/v1/127.0.0.1/ads/firebog/AdguardDNS.fork.txt","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",MANAGED_CHALLENGE,CN
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:12.145Z,8e16a72d5f43a181,186.48.253.151,"/generated/v1/noip/ads/blocklistproject/youtube.fork.txt","Go-http-client/1.1",BLOCK,UY
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:20.253Z,8e169132e866e7f0,119.17.130.141,"/generated/0.0.0.0/forks/r-a-y.AdguardMobileSpyware.txt","Go-http-client/1.1",BLOCK,AU
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:24.683Z,8e1682146dbc4dfd,75.166.63.146,"/generated/adguard/forks/0Zinc.easylist.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:27.081Z,8e167f17e8bd866f,95.16.177.163,"/generated/v1/0.0.0.0/amp/developerdan/amp-hosts-extended.fork.txt","Go-http-client/1.1",BLOCK,ES
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:32.252Z,8e16774999e91e14,134.3.86.155,"/generated/adguard/forks/MajkiIT.SmartTV_ads.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:33.771Z,8e16696b5e546624,5.132.48.201,"/generated/v1/adguard/ads/kboghdady/youtubelist.fork.txt","Go-http-client/1.1",BLOCK,NL
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:34.204Z,8e16694acfc2d43e,152.53.51.235,"/generated/0.0.0.0/forks/blocklistproject.redirect.txt","Go-http-client/2.0",BLOCK,AT
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:38.537Z,8e1663e22bc78573,175.32.190.77,"/generated/v1/adguard/dating-services/developerdan/extended.fork.txt","Go-http-client/1.1",BLOCK,AU
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:47.013Z,8e16543bb8b7712a,185.40.4.149,"/generated/127.0.0.1/forks/oisd.nsfw.txt","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:48.328Z,8e1653e87b19a1f0,152.53.2.243,"/generated/0.0.0.0/forks/blocklistproject.redirect.txt","Go-http-client/2.0",BLOCK,AT
-2024-11-13T10:04:50.696Z,2024-11-12T13:37:53.972Z,8e163a5f587dd323,136.41.5.116,"/generated/adguard/ads/blocklistproject.ads.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.696Z,2024-11-12T15:38:40.495Z,8e179aedfc716a4e,93.241.245.153,"/generated/v1/adguard/ads/firebog/AdguardDNS.fork.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.696Z,2024-11-12T15:38:57.435Z,8e178eca5ad5714a,174.88.117.252,"/generated/v1/adguard/tracking-and-telemetry/0Zinc/easyprivacy.fork.txt","Go-http-client/1.1",BLOCK,CA
 2024-11-13T10:04:50.696Z,2024-11-12T15:39:04.917Z,8e1781d47f86b9df,107.189.2.206,"/","Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.696Z,2024-11-12T15:39:07.636Z,8e1779585f53904d,146.168.158.114,"/generated/v1/0.0.0.0/ads/craiu/mobiletrackers.fork.txt","Go-http-client/1.1",BLOCK,US
 2024-11-13T10:04:50.696Z,2024-11-12T15:39:08.990Z,8e17768d49b3769e,240e:369:8173:b500:ccfe:4c77:a620:9ff0,"/generated/v1/127.0.0.1/ads/firebog/AdguardDNS.fork.txt","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",MANAGED_CHALLENGE,CN
-2024-11-13T10:04:50.696Z,2024-11-12T15:39:09.422Z,8e1774e36e0f5ac5,87.249.133.225,"/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt","Go-http-client/1.1",BLOCK,AT
 2024-11-13T10:04:50.696Z,2024-11-12T15:39:10.180Z,8e1771be6a18b0ef,240e:369:8173:b500:78c5:b076:96b:3fcc,"/generated/v1/127.0.0.1/ads/firebog/AdguardDNS.fork.txt","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",MANAGED_CHALLENGE,CN
 2024-11-13T10:04:50.696Z,2024-11-12T15:39:10.548Z,8e1771241ed910d4,205.210.31.36,"/","Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com",BLOCK,US
-2024-11-13T10:04:50.696Z,2024-11-12T15:39:17.178Z,8e176469be7b2369,93.199.98.9,"/generated/adguard/social/tiktok.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.696Z,2024-11-12T15:39:30.878Z,8e17413a8a002299,213.122.223.49,"/generated/v1/adguard/social/tiktok.txt","Go-http-client/1.1",BLOCK,GB
-2024-11-13T10:04:50.696Z,2024-11-12T15:39:41.429Z,8e173590cad53fe6,103.2.135.42,"/generated/v1/0.0.0.0/phishing/RPiList/Phishing-Angriffe.fork.txt","Go-http-client/1.1",BLOCK,IN
-2024-11-13T10:04:50.696Z,2024-11-12T15:39:46.677Z,8e1733a63fa8e602,93.237.109.35,"/generated/v1/0.0.0.0/games/valorant.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.696Z,2024-11-12T15:39:59.725Z,8e171ccbc92e47e9,103.177.4.246,"/generated/v1/0.0.0.0/social/instagram.txt","Go-http-client/1.1",BLOCK,IN
-2024-11-13T10:04:50.696Z,2024-11-12T15:40:01.778Z,8e171be2af98d117,82.64.21.133,"/generated/v1/adguard/ads/jerryn70/GoodbyeAds.fork.txt","Go-http-client/1.1",BLOCK,FR
 2024-11-13T10:04:50.696Z,2024-11-12T15:40:03.978Z,8e1718608ff68484,119.28.12.38,"/xmlrpc.php","Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0",MANAGED_CHALLENGE,CN
-2024-11-13T10:04:50.696Z,2024-11-12T15:40:04.263Z,8e1717f99b7b5a44,91.195.92.9,"/generated/v1/adguard/abuse/blocklistproject/hosts.fork.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.696Z,2024-11-12T15:40:06.981Z,8e170d4b69528381,195.48.15.194,"/generated/0.0.0.0/forks/0Zinc.easyprivacy.txt","Go-http-client/1.1",BLOCK,CH
-2024-11-13T10:04:50.696Z,2024-11-12T17:40:57.448Z,8e1846c5c92451e5,99.156.97.35,"/generated/adguard/forks/marktron.fakenews.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.696Z,2024-11-12T17:40:59.901Z,8e1844a8ef097442,186.14.56.46,"/generated/v1/adguard/extensions/r-a-y/AdguardApps.fork.txt","Go-http-client/1.1",BLOCK,VE
-2024-11-13T10:04:50.696Z,2024-11-12T17:41:13.605Z,8e182805cbb1ac94,99.251.132.59,"/generated/v1/0.0.0.0/extensions/deathbybandaid/ParsedBlacklists-EasyList.fork.txt","Go-http-client/1.1",BLOCK,CA
-2024-11-13T10:04:50.696Z,2024-11-12T17:41:25.714Z,8e1821563f3a370f,190.148.128.38,"/generated/v1/adguard/ads/0Zinc/easylist.fork.txt","Go-http-client/1.1",BLOCK,GT
-2024-11-13T10:04:50.696Z,2024-11-12T17:41:26.320Z,8e1820b8dd5c1c77,141.224.196.41,"/generated/v1/adguard/malicious/RPiList/Malware.fork.txt","Go-http-client/1.1",BLOCK,NL
-2024-11-13T10:04:50.696Z,2024-11-12T17:41:29.160Z,8e18179e68181649,87.19.247.149,"/generated/v1/adguard/ads/blocklistproject/youtube.fork.txt","Go-http-client/1.1",BLOCK,IT
 2024-11-13T10:04:50.696Z,2024-11-12T17:41:29.586Z,8e1816718f73db9b,188.68.36.28,"/generated/127.0.0.1/forks/oisd.nsfw.txt","Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.696Z,2024-11-12T17:41:31.083Z,8e18152ece6dcaa9,91.246.73.108,"/generated/adguard/forks/disconnectme.simple_ad.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.697Z,2024-11-12T17:41:32.848Z,8e181521cceb6493,179.232.26.219,"/generated/0.0.0.0/forks/blocklistproject.porn.txt","Go-http-client/1.1",BLOCK,BR
-2024-11-13T10:04:50.697Z,2024-11-12T17:41:37.900Z,8e180b31c9ce0664,100.6.89.137,"/generated/v1/adguard/extensions/MajkiIT/adguard-host.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.697Z,2024-11-12T17:41:43.471Z,8e17f4cd8d58df97,182.253.56.138,"/generated/adguard/forks/blocklistproject.ransomware.txt","Go-http-client/1.1",BLOCK,ID
 2024-11-13T10:04:50.697Z,2024-11-12T17:41:44.149Z,8e17f421cfd47c6d,27.115.124.38,"/generated/v1","Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36",MANAGED_CHALLENGE,CN
 2024-11-13T10:04:50.697Z,2024-11-12T17:41:44.532Z,8e17f4123ebc14f4,123.6.49.18,"/generated/v1","Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36",MANAGED_CHALLENGE,CN
 2024-11-13T10:04:50.697Z,2024-11-12T17:41:44.938Z,8e17f3fa38122ee7,27.115.124.45,"/","Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36",BLOCK,CN
 2024-11-13T10:04:50.697Z,2024-11-12T17:41:46.898Z,8e17f11ccaf85a41,2a0a:4cc0:0:11eb::b00b:babe,"/generated/0.0.0.0/forks/blocklistproject.redirect.txt","Go-http-client/2.0",BLOCK,AT
 2024-11-13T10:04:50.697Z,2024-11-12T17:41:47.708Z,8e17ecf9683e2a9f,27.115.124.109,"/","Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36",MANAGED_CHALLENGE,CN
-2024-11-13T10:04:50.697Z,2024-11-12T17:41:56.483Z,8e17d4367ed3c80d,151.40.73.198,"/generated/v1/noip/extensions/r-a-y/AdguardApps.fork.txt","Go-http-client/1.1",BLOCK,IT
-2024-11-13T10:04:50.697Z,2024-11-12T17:42:02.729Z,8e17d3748cd67019,212.118.54.251,"/generated/adguard/forks/FadeMind.add.2o7Net.txt","Go-http-client/1.1",BLOCK,NL
 2024-11-13T10:04:50.697Z,2024-11-12T17:42:04.095Z,8e17ccb42e666690,194.26.192.161,"/generated/127.0.0.1/forks/oisd.nsfw.txt","Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.697Z,2024-11-12T17:42:06.608Z,8e17c53dfcddc7dc,87.122.108.22,"/generated/v1/adguard/games/league-of-legends.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.697Z,2024-11-12T17:42:10.053Z,8e17bbffc9720e3c,164.90.195.93,"/generated/v1/0.0.0.0/sites/riotgames.txt","Go-http-client/1.1",BLOCK,NL
-2024-11-13T10:04:50.697Z,2024-11-12T17:42:14.924Z,8e17b38548cf2ecc,76.242.46.163,"/generated/0.0.0.0/forks/blocklistproject.youtube.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.697Z,2024-11-12T17:42:16.780Z,8e17b0d8d9cde900,240e:369:8173:b500:5b2:7aee:6a88:306b,"/generated/v1/127.0.0.1/ads/firebog/AdguardDNS.fork.txt","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",MANAGED_CHALLENGE,CN
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:02.849Z,8e18ff0508364756,104.14.158.68,"/generated/v1/0.0.0.0/porn/oisd/nsfw.fork.txt","Go-http-client/1.1",BLOCK,US
 2024-11-13T10:04:50.697Z,2024-11-12T19:43:03.225Z,8e18feee89679c92,106.216.203.128,"/generated/adguard/forks/blocklistproject.youtube.txt","Go-http-client/1.1",BLOCK,IN
 2024-11-13T10:04:50.697Z,2024-11-12T19:43:05.988Z,8e18fa90ff65750c,185.220.101.49,"/","Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:07.025Z,8e18fa3a0c385ae2,188.129.66.117,"/generated/0.0.0.0/forks/blocklistproject.ransomware.txt","Go-http-client/1.1",BLOCK,HR
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:25.854Z,8e18d673fd6f6dee,193.32.248.193,"/generated/v1/adguard/amp/ente-dev/google-amp-hosts.fork.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:26.437Z,8e18d5faaa416998,85.122.208.237,"/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:27.263Z,8e18d42a99843aa0,77.25.17.130,"/generated/v1/0.0.0.0/ads/blocklistproject/youtube.fork.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:30.423Z,8e18d089ea0874dc,148.71.128.223,"/generated/v1/adguard/ads/DandelionSprout.GameConsoleAdblockList.txt","Go-http-client/1.1",BLOCK,PT
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:40.345Z,8e18bf4a9888a28f,96.22.114.45,"/generated/adguard/forks/kboghdady.youtubelist.txt","Go-http-client/1.1",BLOCK,CA
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:49.117Z,8e18b6c6dcf62d35,189.140.129.6,"/generated/v1/0.0.0.0/porn/blocklistproject/porn.fork.txt","Go-http-client/1.1",BLOCK,MX
-2024-11-13T10:04:50.697Z,2024-11-12T19:43:55.936Z,8e18b1f75fad3c93,2.88.202.94,"/generated/v1/adguard/ads/disconnectme/simple-ad.fork.txt","Go-http-client/1.1",BLOCK,SA
 2024-11-13T10:04:50.697Z,2024-11-12T19:43:57.796Z,8e18ae1a9a3ff170,154.216.19.230,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36 Herring/95.1.8810.11",MANAGED_CHALLENGE,T1
 2024-11-13T10:04:50.697Z,2024-11-12T19:44:05.182Z,8e1892b71cd5d125,198.235.24.149,"/","Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com",BLOCK,US
-2024-11-13T10:04:50.697Z,2024-11-12T19:44:07.446Z,8e1890c449b36d3a,177.220.183.70,"/generated/0.0.0.0/forks/blocklistproject.gambling.txt","Go-http-client/1.1",BLOCK,BR
-2024-11-13T10:04:50.697Z,2024-11-12T19:44:11.993Z,8e188aee5c487d3b,112.206.110.48,"/generated/adguard/games/valorant.txt","Go-http-client/1.1",BLOCK,PH
-2024-11-13T10:04:50.697Z,2024-11-12T19:44:27.744Z,8e187f2fba299283,141.179.111.23,"/generated/adguard/social/tiktok.txt","Go-http-client/1.1",BLOCK,SA
-2024-11-13T10:04:50.697Z,2024-11-12T19:44:33.202Z,8e1879cdefca2a2d,69.222.248.36,"/generated/v1/0.0.0.0/ads/r-a-y/AdguardMobileAds.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.697Z,2024-11-12T19:44:33.896Z,8e1877a35cf85c22,139.144.70.28,"/generated/v1/adguard/fakenews/marktron/hosts.fork.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.697Z,2024-11-12T19:44:36.028Z,8e1876bbf9031614,88.153.130.54,"/generated/v1/adguard/ads/jerryn70/GoodbyeAds.fork.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.697Z,2024-11-12T19:44:41.982Z,8e186bd1edad5a09,73.173.93.210,"/generated/v1/adguard/ads/yoyo/ads-trackers-etc.fork.txt","Go-http-client/1.1",BLOCK,US
 2024-11-13T10:04:50.697Z,2024-11-12T19:44:46.109Z,8e186239992cb987,23.137.250.83,"/","Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.697Z,2024-11-12T19:44:49.889Z,8e18585329f7cbc6,195.166.217.232,"/generated/adguard/ads/kboghdady.youtubelist.txt","Go-http-client/1.1",BLOCK,GI
-2024-11-13T10:04:50.697Z,2024-11-12T21:45:30.952Z,8e19ae2acc50b039,38.40.6.233,"/generated/0.0.0.0/forks/4skinSkywalker.Anti-Porn.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.697Z,2024-11-12T21:45:33.438Z,8e19aae0d96cb4eb,81.167.78.41,"/generated/v1/adguard/porn/blocklistproject/porn.fork.txt","Go-http-client/1.1",BLOCK,NO
-2024-11-13T10:04:50.698Z,2024-11-12T21:45:39.687Z,8e19922c98f1010a,45.229.171.179,"/generated/v1/adguard/social/snapchat.txt","Go-http-client/1.1",BLOCK,PY
-2024-11-13T10:04:50.698Z,2024-11-12T21:45:42.361Z,8e1988f5ec7f84f3,118.70.170.122,"/generated/v1/adguard/amp/developerdan/amp-hosts-extended.fork.txt","Go-http-client/1.1",BLOCK,VN
-2024-11-13T10:04:50.698Z,2024-11-12T21:45:42.651Z,8e1988f54dc7853e,118.70.168.133,"/generated/v1/adguard/crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt","Go-http-client/1.1",BLOCK,VN
-2024-11-13T10:04:50.698Z,2024-11-12T21:45:43.534Z,8e1988f719486038,117.4.139.251,"/generated/v1/adguard/amp/ente-dev/google-amp-hosts.fork.txt","Go-http-client/1.1",BLOCK,VN
-2024-11-13T10:04:50.698Z,2024-11-12T21:45:44.551Z,8e198836ec43853a,118.70.155.120,"/generated/adguard/ads/yoyo.AdsTrackersEtc.txt","Go-http-client/1.1",BLOCK,VN
-2024-11-13T10:04:50.698Z,2024-11-12T21:45:53.480Z,8e1977a01e6662f2,62.54.174.137,"/generated/adguard/forks/Sinfonietta.pornography-hosts.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.698Z,2024-11-12T21:45:55.283Z,8e19721d4c05c3f4,77.254.212.105,"/generated/v1/adguard/tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.698Z,2024-11-12T21:45:58.908Z,8e196c8e38310f70,79.196.56.229,"/generated/v1/adguard/ads/blocklistproject/youtube.fork.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.698Z,2024-11-12T21:46:00.749Z,8e196bc3f9b55b75,84.115.222.11,"/generated/v1/adguard/ads/kboghdady/youtubelist.fork.txt","Go-http-client/1.1",BLOCK,AT
-2024-11-13T10:04:50.698Z,2024-11-12T21:46:17.934Z,8e193d13a8666efc,51.159.177.1,"/generated/v1/adguard/extensions/hagezi/pro.fork.txt","Go-http-client/1.1",BLOCK,FR
 2024-11-13T10:04:50.698Z,2024-11-12T21:46:27.233Z,8e193557fafcb137,2a02:c7c:e853:8200:8a2:459b:96f9:11b0,"/generated/v1/0.0.0.0/test.txt%0Ahttps://blocklist.sefinek.net/generated/v1/0.0.0.0/social/tiktok.txt","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",BLOCK,GB
 2024-11-13T10:04:50.698Z,2024-11-12T21:46:28.714Z,8e1933a9fa21701a,93.100.44.86,"/generated/0.0.0.0/ads/blocklistproject.ads.txt","Go-http-client/1.1",BLOCK,RU
 2024-11-13T10:04:50.698Z,2024-11-12T21:46:29.803Z,8e192e850ff66c05,157.230.34.46,"/wordpress/wp-admin/setup-config.php","Apache/2.4.34 (Ubuntu) OpenSSL/1.1.1 (internal dummy connection)",BLOCK,SG
-2024-11-13T10:04:50.698Z,2024-11-12T21:46:30.609Z,8e192adc1e382f02,47.151.71.247,"/generated/adguard/forks/chadmayfield.pi_blocklist_porn_all.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.698Z,2024-11-12T21:46:31.596Z,8e192a9a0e730472,78.43.133.239,"/generated/adguard/fraud.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.698Z,2024-11-12T21:46:32.627Z,8e1929d039935a54,46.77.89.232,"/generated/v1/0.0.0.0/tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.698Z,2024-11-12T21:46:34.435Z,8e19290dbef65b67,81.217.71.115,"/generated/v1/adguard/suspicious/sefinek.hosts.txt","Go-http-client/1.1",BLOCK,AT
-2024-11-13T10:04:50.698Z,2024-11-13T01:49:44.646Z,8e1b109ff9fabab7,81.57.12.46,"/generated/v1/0.0.0.0/ads/crazy-max/spy.fork.txt","Go-http-client/1.1",BLOCK,IT
 2024-11-13T10:04:50.698Z,2024-11-13T01:49:44.983Z,8e1b0fbd0c95e2f1,103.210.22.117,"/","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36",MANAGED_CHALLENGE,SG
-2024-11-13T10:04:50.698Z,2024-11-13T01:49:46.128Z,8e1b0eebec0e0153,86.252.169.55,"/generated/v1/adguard/social/snapchat.txt","Go-http-client/1.1",BLOCK,FR
 2024-11-13T10:04:50.698Z,2024-11-13T01:50:04.677Z,8e1ae3bf0eb8c051,176.114.9.174,"/generated/v1/127.0.0.1/scam/jarelllama/scam.fork.txt","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36",MANAGED_CHALLENGE,UA
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:06.896Z,8e1ad9845efc95ef,165.255.240.136,"/generated/127.0.0.1/malicious/main-2.txt","Go-http-client/1.1",BLOCK,ZA
 2024-11-13T10:04:50.698Z,2024-11-13T01:50:07.405Z,8e1ad2861e9c3698,111.231.12.66,"/","Mozilla/5.0 (Linux; Android 10; LIO-AN00 Build/HUAWEILIO-AN00; wv) MicroMessenger Weixin QQ AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2692 MMWEBSDK/200901 Mobile Safari/537.36",MANAGED_CHALLENGE,CN
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:09.793Z,8e1acd87ed0af19a,82.66.151.51,"/generated/0.0.0.0/forks/blocklistproject.ransomware.txt","Go-http-client/1.1",BLOCK,FR
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:14.214Z,8e1ac9a89d6cc9dd,89.42.59.37,"/generated/v1/0.0.0.0/fakenews/marktron/hosts.fork.txt","Go-http-client/1.1",BLOCK,RO
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:18.091Z,8e1abf360f70a527,189.90.39.154,"/generated/0.0.0.0/forks/blocklistproject.ransomware.txt","Go-http-client/1.1",BLOCK,BR
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:21.576Z,8e1ab5457c305b4b,188.252.198.42,"/generated/0.0.0.0/forks/blocklistproject.ransomware.txt","Go-http-client/1.1",BLOCK,HR
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:23.496Z,8e1ab06c0d2117b8,40.76.119.18,"/generated/v1/0.0.0.0/tracking-and-telemetry/0Zinc/easyprivacy.fork.txt","Go-http-client/2.0",BLOCK,US
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:25.336Z,8e1aa925eebc2c00,2a00:1f:4740:2b01:be24:11ff:fe09:50eb,"/generated/v1/0.0.0.0/malicious/phishing.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:35.876Z,8e1a9c13bcb095f8,102.182.46.179,"/generated/v1/adguard/malicious/RPiList/Malware.fork.txt","Go-http-client/1.1",BLOCK,ZA
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:38.130Z,8e1a96355d73eb83,24.108.125.162,"/generated/v1/adguard/ads/jerryn70/GoodbyeAds.fork.txt","Go-http-client/1.1",BLOCK,CA
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:39.299Z,8e1a95786894f09f,88.152.248.159,"/generated/v1/adguard/ads/yoyo/ads-trackers-etc.fork.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:40.867Z,8e1a94b50b71cfa5,89.155.57.70,"/generated/v1/adguard/crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt","Go-http-client/1.1",BLOCK,PT
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:48.987Z,8e1a8efaadbd5075,195.174.80.125,"/generated/0.0.0.0/forks/r-a-y.AdguardMobileAds.txt","Go-http-client/1.1",BLOCK,TR
-2024-11-13T10:04:50.698Z,2024-11-13T01:50:51.228Z,8e1a8641c94d7ca5,70.21.129.39,"/generated/v1/0.0.0.0/ads/ShadowWhisperer/Ads.fork.txt","Go-http-client/1.1",BLOCK,US
 2024-11-13T10:04:50.698Z,2024-11-13T01:51:02.533Z,8e1a6d45fd80c060,154.216.16.16,"/","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.698Z,2024-11-13T03:52:03.722Z,8e1bc7c47a9f76c9,240e:369:8133:db00:c913:9bc1:82e7:24fb,"/generated/v1/127.0.0.1/ads/firebog/AdguardDNS.fork.txt","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",MANAGED_CHALLENGE,CN
-2024-11-13T10:04:50.698Z,2024-11-13T03:52:07.175Z,8e1bb971aaa8a05b,94.114.164.114,"/generated/v1/0.0.0.0/gambling.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.699Z,2024-11-13T03:52:27.896Z,8e1b7c92ac3495f2,102.182.166.146,"/generated/v1/adguard/abuse/blocklistproject/hosts.fork.txt","Go-http-client/1.1",BLOCK,ZA
-2024-11-13T10:04:50.699Z,2024-11-13T03:52:30.182Z,8e1b79d1793909c3,5.29.105.176,"/generated/adguard/malicious/reported-by-norton.txt","Go-http-client/1.1",BLOCK,IL
-2024-11-13T10:04:50.699Z,2024-11-13T03:52:55.053Z,8e1b55e79e4b3cc9,178.170.9.208,"/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt","Go-http-client/1.1",BLOCK,FR
-2024-11-13T10:04:50.699Z,2024-11-13T03:53:03.036Z,8e1b54078a7bd644,5.161.96.250,"/generated/v1/adguard/tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.699Z,2024-11-13T03:53:11.742Z,8e1b3e0e5d9965f5,190.2.132.141,"/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt","Go-http-client/1.1",BLOCK,NL
 2024-11-13T10:04:50.699Z,2024-11-13T03:53:12.086Z,8e1b3cd9bccc9723,154.213.184.90,"/","Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",MANAGED_CHALLENGE,T1
-2024-11-13T10:04:50.699Z,2024-11-13T03:53:15.267Z,8e1b39246d4570c2,37.214.67.42,"/generated/v1/adguard/ads/adaway/hosts.fork.txt","Go-http-client/1.1",BLOCK,BY
-2024-11-13T10:04:50.699Z,2024-11-13T03:53:16.127Z,8e1b323cf9900699,190.131.235.242,"/generated/v1/0.0.0.0/porn.txt","Go-http-client/1.1",BLOCK,CO
-2024-11-13T10:04:50.699Z,2024-11-13T03:53:18.144Z,8e1b2d51cfb507f5,87.153.123.217,"/generated/adguard/malicious/phishing.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.699Z,2024-11-13T03:53:22.668Z,8e1b2044bddc4bce,103.144.90.34,"/generated/v1/0.0.0.0/ransomware/blocklistproject/ransomware.fork.txt","Go-http-client/1.1",BLOCK,ID
-2024-11-13T10:04:50.699Z,2024-11-13T03:53:26.277Z,8e1b1cbbdeee285f,69.220.167.234,"/generated/v1/adguard/tracking-and-telemetry/ente-dev/tv.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.699Z,2024-11-13T05:54:21.065Z,8e1c68b3bc7e6ba6,187.148.202.47,"/generated/v1/adguard/gambling/blocklistproject/hosts.fork.txt","Go-http-client/1.1",BLOCK,MX
-2024-11-13T10:04:50.699Z,2024-11-13T05:54:25.888Z,8e1c5e951b1b62df,77.183.85.249,"/generated/adguard/forks/adaway.hosts.txt","Go-http-client/1.1",BLOCK,DE
-2024-11-13T10:04:50.699Z,2024-11-13T05:54:43.608Z,8e1c230a9ed3b221,188.68.236.88,"/generated/adguard/forks/zerodot1.CoinBlockerLists.txt","Go-http-client/1.1",BLOCK,PL
-2024-11-13T10:04:50.699Z,2024-11-13T05:55:06.638Z,8e1bea62c98b643f,86.163.110.124,"/generated/0.0.0.0/forks/developerdan.hate-and-junk-extended.txt","Go-http-client/1.1",BLOCK,GB
-2024-11-13T10:04:50.699Z,2024-11-13T07:07:59.326Z,8e1ccc6fddf3ce52,61.6.45.9,"/generated/v1/rpz/ads/blocklistproject/youtube.fork.txt","Go-http-client/1.1",BLOCK,MY
-2024-11-13T10:04:50.699Z,2024-11-13T07:07:59.823Z,8e1cc91f4d992f37,68.230.84.169,"/generated/v1/adguard/ads/adaway/hosts.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.699Z,2024-11-13T07:08:02.767Z,8e1cc37f68f2d050,79.117.120.60,"/generated/v1/adguard/ads/disconnectme/simple-ad.fork.txt","Go-http-client/1.1",BLOCK,ES
-2024-11-13T10:04:50.699Z,2024-11-13T07:08:04.955Z,8e1cbfc27bebc900,195.166.211.163,"/generated/adguard/ads/kboghdady.youtubelist.txt","Go-http-client/1.1",BLOCK,GI
-2024-11-13T10:04:50.699Z,2024-11-13T07:08:08.949Z,8e1cacb0ba854dea,66.181.41.148,"/generated/v1/adguard/ads/crazy-max/spy.fork.txt","Go-http-client/1.1",BLOCK,US
-2024-11-13T10:04:50.699Z,2024-11-13T07:08:13.149Z,8e1c9910d8e01603,84.59.152.73,"/generated/adguard/forks/notracking.hostnames.txt","Go-http-client/1.1",BLOCK,DE
 2024-11-13T10:04:50.699Z,2024-11-13T08:08:55.349Z,8e1d4399be240fb1,64.112.85.95,"/","Mozilla/5.0 (Macintosh; Intel Mac OS X 12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",MANAGED_CHALLENGE,US
 2024-11-13T10:04:50.699Z,2024-11-13T08:08:58.131Z,8e1d38dd8860cda9,113.249.26.48,"/genshin-stella-mod","Mozilla/5.0 (Linux x86_64; rv:114.0) Gecko/20100101 Firefox/114.0",MANAGED_CHALLENGE,CN
 2024-11-13T10:04:50.699Z,2024-11-13T08:09:01.790Z,8e1d17da8a359ca1,152.42.197.171,"//wordpress/wp-includes/css/dashicons.min.css","Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36",BLOCK,SG
