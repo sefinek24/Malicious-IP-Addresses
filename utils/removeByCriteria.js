@@ -4,20 +4,17 @@ const { parse } = require('csv-parse');
 
 const txtFilePath = path.join(__dirname, '../lists/main.txt');
 const csvFilePath = path.join(__dirname, '../lists/details.csv');
+const criteriaMapping = { endpoint: 4, ip: 3, userAgent: 5 };
 
-const removeFromFile = (filePath, patterns) => {
-	if (!fs.existsSync(filePath)) {
-		console.error('File not found:', filePath);
-		return 0;
-	}
+const removeFromTxt = (filePath, patterns) => {
+	if (!fs.existsSync(filePath)) return 0;
 
 	try {
 		const originalData = fs.readFileSync(filePath, 'utf8').split('\n');
-		const filteredData = originalData.filter(line => !patterns.some(pattern => line.trim() === pattern.trim()));
+		const filteredData = originalData.filter(line => !patterns.includes(line.trim()));
 		fs.writeFileSync(filePath, filteredData.join('\n'));
 		return originalData.length - filteredData.length;
-	} catch (err) {
-		console.error(err);
+	} catch {
 		return 0;
 	}
 };
@@ -27,13 +24,22 @@ const parseCSV = async () => {
 	const parser = fs.createReadStream(csvFilePath).pipe(parse({ delimiter: ',' }));
 
 	for await (const record of parser) {
-		csvData.push(record);
+		csvData.push(
+			record.map(field => {
+				const sanitizedField = field.replace(/"/g, '""');
+				return (/[;,]/).test(sanitizedField) ? `"${sanitizedField}"` : sanitizedField;
+			})
+		);
 	}
+
 	return csvData;
 };
 
-const filterByCriteria = (csvData, criteria, columnIndex) => csvData.filter(line => line[columnIndex]?.includes(criteria));
-const removeLinesFromCSV = (csvData, matchingLines) => csvData.filter(line => !matchingLines.some(matchingLine => JSON.stringify(line) === JSON.stringify(matchingLine)));
+const filterByCriteria = (data, criteria, index) => data.filter(line => line[index]?.includes(criteria));
+const removeFromCSV = (data, lines) =>
+	data.filter(line => !lines.some(matchingLine =>
+		line.length === matchingLine.length && line.every((value, index) => value.trim() === matchingLine[index].trim())
+	));
 
 const removeByCriteria = async (criteria, criteriaType) => {
 	if (!criteria || !criteriaType) return console.error('Criteria and criteriaType are required parameters.');
@@ -42,22 +48,11 @@ const removeByCriteria = async (criteria, criteriaType) => {
 	try {
 		const csvData = await parseCSV();
 
-		let matchingLines = [];
-		if (criteriaType === 'endpoint') {
-			matchingLines = filterByCriteria(csvData, criteria, 4);
-		} else if (criteriaType === 'ip') {
-			matchingLines = filterByCriteria(csvData, criteria, 3);
-		} else if (criteriaType === 'userAgent') {
-			matchingLines = filterByCriteria(csvData, criteria, 5);
-		} else {
-			console.error('Invalid criteriaType. Valid types are: endpoint, ip, userAgent.');
-			return;
-		}
-
+		const matchingLines = filterByCriteria(csvData, criteria, criteriaMapping[criteriaType]);
 		const ipsToRemove = [...new Set(matchingLines.map(line => line[3]))];
 		if (ipsToRemove.length) {
-			const txtRemovedCount = removeFromFile(txtFilePath, ipsToRemove);
-			const updatedCsvData = removeLinesFromCSV(csvData, matchingLines);
+			const txtRemovedCount = removeFromTxt(txtFilePath, ipsToRemove);
+			const updatedCsvData = removeFromCSV(csvData, matchingLines);
 			fs.writeFileSync(csvFilePath, updatedCsvData.map(line => line.join(',')).join('\n'));
 			console.log(`-${txtRemovedCount} lines from main.txt | -${matchingLines.length} lines from details.csv`);
 		} else {
@@ -75,4 +70,4 @@ const removeByCriteria = async (criteria, criteriaType) => {
 // removeByCriteria('', 'ip');
 
 // Remove by user-agent
-// removeByCriteria('', 'userAgent');
+removeByCriteria('Chrome', 'userAgent');
