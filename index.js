@@ -1,44 +1,39 @@
 const axios = require('axios');
 const fs = require('node:fs');
 const path = require('node:path');
+const { parse } = require('csv-parse/sync');
 const { version } = require('./package.json');
 
 const listFilePath = path.join(__dirname, 'lists', 'main.txt');
 const logsFilePath = path.join(__dirname, 'lists', 'details.csv');
 
-const UA_WHITELIST = [
-	'Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.0.0 Safari/537.36',
-];
-
-const loadUniqueIPsFromFile = filePath => {
-	const content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
+const loadUniqueIPsFromFile = async filePath => {
+	const content = fs.existsSync(filePath) ? await fs.promises.readFile(filePath, 'utf8') : '';
 	const lines = content.split('\n').map(line => line.trim()).filter(line => line !== '');
 	return new Set(lines);
 };
 
-const loadCsvRayIds = filePath => {
-	const content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
-	return new Set(content.split('\n').map(line => {
-		const columns = line.split(',');
-		return columns.length > 2 ? columns[2].trim() : null;
-	}).filter(line => line));
+const loadCsvRayIds = async filePath => {
+	const content = fs.existsSync(filePath) ? await fs.promises.readFile(filePath, 'utf8') : '';
+	const records = parse(content, { columns: true, skip_empty_lines: true });
+	return new Set(records.map(record => record.RayID.trim()));
 };
 
-const ensureCsvHeader = (filePath, header) => {
-	if (!fs.existsSync(filePath)) fs.writeFileSync(filePath, `${header}\n`);
+const ensureCsvHeader = async (filePath, header) => {
+	if (!fs.existsSync(filePath)) await fs.promises.writeFile(filePath, `${header}\n`);
 };
 
-const appendToFile = (filePath, content) => {
+const appendToFile = async (filePath, content) => {
 	if (fs.existsSync(filePath)) {
-		fs.appendFileSync(filePath, `\n${content}`);
+		await fs.promises.appendFile(filePath, `\n${content}`);
 	} else {
-		fs.writeFileSync(filePath, content);
+		await fs.promises.writeFile(filePath, content);
 	}
 };
 
 (async () => {
 	try {
-		const apiKey = process.env.SEFIN_API_KEY;
+		const apiKey = 'Pq9B9RgkDOxaRMyA1Ioc95AEzP0DCq8qUKyQ43nPQ5OHJeB1R7sJGyr5rYRr3Gl2theNDTTjU9AkVPmOEtC1RnOJtPAAPXzv2NV';
 		if (!apiKey) throw new Error('SEFIN_API_KEY environment variable not set');
 
 		const res = await axios.get('https://api.sefinek.net/api/v2/cloudflare-waf-abuseipdb/get', {
@@ -51,24 +46,18 @@ const appendToFile = (filePath, content) => {
 		const data = res.data?.logs || [];
 		let newCsvEntries = 0, newIPsAdded = 0, skippedEntries = 0, totalLogsProcessed = 0;
 
-		const existingIPs = loadUniqueIPsFromFile(listFilePath);
-		const existingRayIds = loadCsvRayIds(logsFilePath);
+		const existingIPs = await loadUniqueIPsFromFile(listFilePath);
+		const existingRayIds = await loadCsvRayIds(logsFilePath);
 
 		if (data.length > 0) {
-			ensureCsvHeader(logsFilePath, 'Timestamp UTC,Original Timestamp,RayID,IP,Endpoint,User-Agent,Action taken,Country');
+			await ensureCsvHeader(logsFilePath, 'Added,Date,RayID,IP,Endpoint,User-Agent,Action taken,Country');
 
-			data.forEach(entry => {
+			for (const entry of data) {
 				const { rayId, ip, endpoint, userAgent, action, country, timestamp } = entry;
-
-				if (UA_WHITELIST.includes(userAgent)) {
-					skippedEntries++;
-					return;
-				}
-
 				totalLogsProcessed++;
 
 				if (!existingIPs.has(ip)) {
-					appendToFile(listFilePath, ip);
+					await appendToFile(listFilePath, ip);
 					existingIPs.add(ip);
 					newIPsAdded++;
 				}
@@ -83,15 +72,15 @@ const appendToFile = (filePath, content) => {
 						`"${userAgent}"`,
 						action,
 						country,
-					].join(',') + '\n';
+					].join(',');
 
-					fs.appendFileSync(logsFilePath, logEntry);
+					await fs.promises.appendFile(logsFilePath, `${logEntry}\n`);
 					existingRayIds.add(rayId);
 					newCsvEntries++;
 				} else {
 					skippedEntries++;
 				}
-			});
+			}
 		}
 
 		console.log(`Total logs processed: ${totalLogsProcessed}`);
