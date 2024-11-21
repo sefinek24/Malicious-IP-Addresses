@@ -26,7 +26,7 @@ const parseCSV = async () => {
 	for await (const record of parser) {
 		csvData.push(
 			record.map(field => {
-				const sanitizedField = field.replace(/"/g, '""');
+				const sanitizedField = field.replace(/"/g, '\'');
 				return (/[;,]/).test(sanitizedField) ? `"${sanitizedField}"` : sanitizedField;
 			})
 		);
@@ -67,7 +67,7 @@ const removeByCriteria = async (criteria, criteriaType) => {
 // removeByCriteria('', 'endpoint');
 
 // Remove by IP
-// removeByCriteria('', 'ip');
+removeByCriteria('66.249.66.37', 'ip');
 
 // Remove by user-agent
-removeByCriteria('Chrome', 'userAgent');
+// removeByCriteria('', 'userAgent');
