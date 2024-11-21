@@ -67,7 +67,7 @@ const removeByCriteria = async (criteria, criteriaType) => {
 // removeByCriteria('', 'endpoint');
 
 // Remove by IP
-removeByCriteria('66.249.66.37', 'ip');
+removeByCriteria('', 'ip');
 
 // Remove by user-agent
 // removeByCriteria('', 'userAgent');
