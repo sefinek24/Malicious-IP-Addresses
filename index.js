@@ -68,8 +68,8 @@ const appendToFile = async (filePath, content) => {
 						new Date(timestamp).toISOString(),
 						rayId,
 						ip,
-						`"${endpoint.replace(/"/g, '\'')}"`,
-						`"${userAgent.replace(/"/g, '\'')}"`,
+						`${(/";,/g).test(endpoint) ? `"${endpoint.replace(/"/g, '\'')}"` : endpoint}"`,
+						`${(/";,/g).test(userAgent) ? `"${endpoint.replace(/"/g, '\'')}"` : userAgent}`,
 						action,
 						country,
 					].join(',');
