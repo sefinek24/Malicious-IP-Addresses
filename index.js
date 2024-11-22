@@ -74,7 +74,7 @@ const appendToFile = async (filePath, content) => {
 						country,
 					].join(',');
 
-					await fs.promises.appendFile(logsFilePath, `${logEntry}\n`);
+					await fs.promises.appendFile(logsFilePath, `\n${logEntry}`);
 					existingRayIds.add(rayId);
 					newCsvEntries++;
 				} else {
