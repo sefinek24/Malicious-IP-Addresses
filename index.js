@@ -33,8 +33,8 @@ const appendToFile = async (filePath, content) => {
 
 (async () => {
 	try {
-		const apiKey = 'Pq9B9RgkDOxaRMyA1Ioc95AEzP0DCq8qUKyQ43nPQ5OHJeB1R7sJGyr5rYRr3Gl2theNDTTjU9AkVPmOEtC1RnOJtPAAPXzv2NV';
-		if (!apiKey) throw new Error('SEFIN_API_KEY environment variable not set');
+		const apiKey = process.env.MALICIOUS_IPS_LIST_SECRET;
+		if (!apiKey) throw new Error('MALICIOUS_IPS_LIST_SECRET environment variable not set');
 
 		const res = await axios.get('https://api.sefinek.net/api/v2/cloudflare-waf-abuseipdb/get', {
 			headers: {

@@ -27,7 +27,7 @@ jobs:
       - name: Fetch IPs from API and update files
         run: node index.js
         env:
-          SEFIN_API_KEY: ${{ secrets.SEFIN_API_KEY }}
+          MALICIOUS_IPS_LIST_SECRET: ${{ secrets.MALICIOUS_IPS_LIST_SECRET }}
 
       - name: Run git pull
         run: git pull
