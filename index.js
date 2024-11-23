@@ -37,10 +37,7 @@ const appendToFile = async (filePath, content) => {
 		if (!apiKey) throw new Error('MALICIOUS_IPS_LIST_SECRET environment variable not set');
 
 		const res = await axios.get('https://api.sefinek.net/api/v2/cloudflare-waf-abuseipdb/get', {
-			headers: {
-				'Authorization': apiKey,
-				'User-Agent': `Mozilla/5.0 (compatible; Malicious-IP-Addresses/${version}; +https://github.com/sefinek/Malicious-IP-Addresses)`,
-			},
+			headers: { 'Authorization': apiKey },
 		});
 
 		const data = res.data?.logs || [];

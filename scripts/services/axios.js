@@ -1,8 +1,8 @@
 const axios = require('axios');
-const { name, version } = require('../../package.json');
+const { version } = require('../../package.json');
 
 axios.defaults.headers.common = {
-	'User-Agent': `Mozilla/5.0 (compatible; ${name}/${version}; +https://github.com/sefinek/Malicious-IP-Addresses)`,
+	'User-Agent': `Mozilla/5.0 (compatible; Malicious-IP-Addresses/${version}; +https://github.com/sefinek/Malicious-IP-Addresses)`,
 	'Accept': 'application/json',
 	'Content-Type': 'application/json',
 	'Accept-Encoding': 'gzip, deflate, br',
