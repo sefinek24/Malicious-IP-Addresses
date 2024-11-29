@@ -27,7 +27,7 @@ const parseCSV = async () => {
 		csvData.push(
 			record.map(field => {
 				const sanitizedField = field.replace(/"/g, '\'');
-				return (/[;,]/).test(sanitizedField) ? `"${sanitizedField}"` : sanitizedField;
+				return (/[";, ]/).test(sanitizedField) ? `"${sanitizedField}"` : sanitizedField;
 			})
 		);
 	}
