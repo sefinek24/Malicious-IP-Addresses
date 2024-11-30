@@ -19,11 +19,11 @@
     "remove": "node utils/removeByCriteria.js"
   },
   "dependencies": {
-    "axios": "^1.7.7",
-    "csv-parse": "^5.5.6"
+    "axios": "^1.7.8",
+    "csv-parse": "^5.6.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.15.0",
+    "@eslint/js": "^9.16.0",
     "globals": "^15.12.0"
   }
 }
