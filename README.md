@@ -1,31 +1,31 @@
 # 📃 Malicious IP Address List
-This repository contains a list of IP addresses associated with various malicious activities on the network.
-Many of these addresses are part of botnets used to conduct cyberattacks, such as DDoS attacks.
+This repository contains a list of IP addresses associated with various malicious activities on the internet.
+Many of these addresses are part of botnets, VPN/Proxy networks used to carry out cyberattacks, such as DDoS attacks, and more.
 
-Some of these IP addresses have been, or are still being, used to generate artificial traffic on websites.
-Such activities can mislead analytics systems, inflate ad click counts, and more. This list is particularly useful for those using services like Google AdSense.
+## What Can This List Block?
+- ✅ DDoS attacks
+- ✅ Malicious bots or crawlers
+- ✅ Bots generating artificial views (useful if you use Google AdSense)
+- ✅ Malicious VPNs or proxies
 
-### Usage
-This list can be useful for network administrators, security researchers, and cybersecurity companies. It can help with:
-- Blocking malicious IP addresses in firewalls.
-- Analyzing threats and detecting suspicious network traffic.
-- Defending against DDoS attacks and other network-related threats.
-
-### Warning
-Blocking IP addresses should be done with caution to avoid disrupting legitimate traffic.
-Regular updates to the list are recommended.
+Blocking IP addresses should be done cautiously to avoid disrupting legitimate traffic.
+It is recommended to update the list regularly.
 
 ## Cron
 The list is usually updated every 2 hours.
 
-## TXT file
+## TXT
 ```text
 https://raw.githubusercontent.com/sefinek/Malicious-IP-Addresses/main/lists/main.txt
 ```
 
-## CSV file
+## CSV
 This file contains user agents, endpoints, and IP addresses that have been blacklisted.
 Not all IP addresses from [main.txt](lists/main.txt) are included in [details.csv](lists/details.csv).
+
+## Other repositories
+1. [sefinek/UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
+2. [sefinek/Cloudflare-WAF-To-AbuseIPDB](https://github.com/sefinek/Cloudflare-WAF-To-AbuseIPDB)
 
 ## Star
 If you find this repository helpful, please consider giving it a star. Thank you!
