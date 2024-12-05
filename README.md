@@ -3,10 +3,10 @@ This repository contains a list of IP addresses associated with various maliciou
 Many of these addresses are part of botnets, VPN/Proxy networks used to carry out cyberattacks, such as DDoS attacks, and more.
 
 ## What Can This List Block?
-- ✅ DDoS attacks
-- ✅ Malicious bots or crawlers
-- ✅ Bots generating artificial views (useful if you use Google AdSense)
-- ✅ Malicious VPNs or proxies
+1. ✅ DDoS attacks
+2. ✅ Malicious bots or crawlers
+3. ✅ Bots generating artificial views (useful if you use Google AdSense)
+4. ✅ Malicious VPNs or proxies
 
 Blocking IP addresses should be done cautiously to avoid disrupting legitimate traffic.
 It is recommended to update the list regularly.
