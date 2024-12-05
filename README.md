@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/sefinek/Malicious-IP-Addresses/main/lists/main
 This file contains user agents, endpoints, and IP addresses that have been blacklisted.
 Not all IP addresses from [main.txt](lists/main.txt) are included in [details.csv](lists/details.csv).
 
-## Other repositories
+## Other Repositories
 1. [sefinek/UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
 2. [sefinek/Cloudflare-WAF-To-AbuseIPDB](https://github.com/sefinek/Cloudflare-WAF-To-AbuseIPDB)
 
