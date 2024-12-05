@@ -27,5 +27,5 @@ Not all IP addresses from [main.txt](lists/main.txt) are included in [details.cs
 1. [sefinek/UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
 2. [sefinek/Cloudflare-WAF-To-AbuseIPDB](https://github.com/sefinek/Cloudflare-WAF-To-AbuseIPDB)
 
-## Star
+## Star ⭐
 If you find this repository helpful, please consider giving it a star. Thank you!
