@@ -6,9 +6,9 @@ Many of these addresses are part of botnets, VPN/Proxy networks used to carry ou
 
 ## What Can This List Block?
 1. ✅ DDoS attacks
-2. ✅ Malicious bots or crawlers
+2. ✅ Malicious bots & crawlers
 3. ✅ Bots generating artificial views (useful if you use Google AdSense)
-4. ✅ Malicious VPNs or proxies
+4. ✅ Malicious VPNs & proxies
 
 Blocking IP addresses should be done cautiously to avoid disrupting legitimate traffic.
 It is recommended to update the list regularly.
