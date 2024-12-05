@@ -2,6 +2,8 @@
 This repository contains a list of IP addresses associated with various malicious activities on the internet.
 Many of these addresses are part of botnets, VPN/Proxy networks used to carry out cyberattacks, such as DDoS attacks, and more.
 
+⭐ If you find this repository helpful, please consider giving it a star. Thank you!
+
 ## What Can This List Block?
 1. ✅ DDoS attacks
 2. ✅ Malicious bots or crawlers
@@ -26,6 +28,3 @@ Not all IP addresses from [main.txt](lists/main.txt) are included in [details.cs
 ## Other Repositories
 1. [sefinek/UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
 2. [sefinek/Cloudflare-WAF-To-AbuseIPDB](https://github.com/sefinek/Cloudflare-WAF-To-AbuseIPDB)
-
-## Star ⭐
-If you find this repository helpful, please consider giving it a star. Thank you!
