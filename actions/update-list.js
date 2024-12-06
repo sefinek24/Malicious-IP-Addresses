@@ -18,10 +18,6 @@ const loadCsvRayIds = async filePath => {
 	return new Set(records.map(record => record.RayID.trim()));
 };
 
-const ensureCsvHeader = async (filePath, header) => {
-	if (!fs.existsSync(filePath)) await fs.promises.writeFile(filePath, `${header}\n`);
-};
-
 const appendToFile = async (filePath, content) => {
 	if (fs.existsSync(filePath)) {
 		await fs.promises.appendFile(filePath, `\n${content}`);
@@ -46,7 +42,7 @@ const appendToFile = async (filePath, content) => {
 		const existingRayIds = await loadCsvRayIds(logsFilePath);
 
 		if (data.length > 0) {
-			await ensureCsvHeader(logsFilePath, 'Added,Date,RayID,IP,Endpoint,User-Agent,Action taken,Country');
+			if (!fs.existsSync(logsFilePath)) await fs.promises.writeFile(logsFilePath, 'Added,Date,RayID,IP,Endpoint,User-Agent,Action taken,Country\n');
 
 			for (const entry of data) {
 				const { rayId, ip, endpoint, userAgent, action, country, timestamp } = entry;
