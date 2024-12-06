@@ -3,8 +3,8 @@ const path = require('node:path');
 const { parse } = require('csv-parse/sync');
 const axios = require('../utils/services/axios.js');
 
-const listFilePath = path.join(__dirname, 'lists', 'main.txt');
-const logsFilePath = path.join(__dirname, 'lists', 'details.csv');
+const listFilePath = path.join(__dirname, '..', 'lists', 'main.txt');
+const logsFilePath = path.join(__dirname, '..', 'lists', 'details.csv');
 
 const loadUniqueIPsFromFile = async filePath => {
 	const content = fs.existsSync(filePath) ? await fs.promises.readFile(filePath, 'utf8') : '';
