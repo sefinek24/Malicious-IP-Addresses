@@ -1,4 +1,4 @@
-name: Fetch IPs
+name: Fetch data
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-ips:
+  fetch-data:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,9 +25,12 @@ jobs:
         run: npm ci --omit=dev
 
       - name: Fetch IPs from API and update files
-        run: node .
+        run: node actions/update-list.js
         env:
           MALICIOUS_IPS_LIST_SECRET: ${{ secrets.MALICIOUS_IPS_LIST_SECRET }}
+
+      - name: Remove safe IPs
+        run: node actions/remove-safe-ips
 
       - name: Run git pull
         run: git pull

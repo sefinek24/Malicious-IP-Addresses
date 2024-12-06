@@ -1,6 +1,6 @@
 {
   "name": "malicious-ip-addresses",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This repository contains a list of various IP addresses associated with different malicious activities on the network.\r Most of them are part of botnets used to carry out cyberattacks, such as DDoS (Distributed Denial of Service) attacks.",
   "homepage": "https://github.com/sefinek/Malicious-IP-Addresses#readme",
   "bugs": {
@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "axios": "^1.7.9",
-    "csv-parse": "^5.6.0"
+    "csv-parse": "^5.6.0",
+    "ipaddr.js": "^2.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
