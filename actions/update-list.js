@@ -42,7 +42,7 @@ const appendToFile = async (filePath, content) => {
 		const existingRayIds = await loadCsvRayIds(logsFilePath);
 
 		if (data.length > 0) {
-			if (!fs.existsSync(logsFilePath)) await fs.promises.writeFile(logsFilePath, 'Added,Date,RayID,IP,Endpoint,User-Agent,Action taken,Country\n');
+			if (!fs.existsSync(logsFilePath)) await fs.promises.writeFile(logsFilePath, 'Added,Date,RayID,IP,Endpoint,User-Agent,"Action taken",Country\n');
 
 			for (const entry of data) {
 				const { rayId, ip, endpoint, userAgent, action, country, timestamp } = entry;
