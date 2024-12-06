@@ -1,4 +1,4 @@
-const axios = require('../scripts/services/axios.js');
+const axios = require('../../utils/services/axios.js');
 const fs = require('node:fs');
 const path = require('node:path');
 
@@ -7,7 +7,7 @@ const URLS = [
 	'https://www.cloudflare.com/ips-v6',
 ];
 
-const FILE_PATH = path.resolve(__dirname, '..', 'whitelists', 'cloudflare.txt');
+const FILE_PATH = path.resolve(__dirname, '..', 'actions', 'safe-bots', 'cloudflare.txt');
 
 (async () => {
 	try {

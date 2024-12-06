@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
-  "main": "index.js",
+  "main": "actions/update-list.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "up": "ncu -u && npm install && npm update && npm audit fix",

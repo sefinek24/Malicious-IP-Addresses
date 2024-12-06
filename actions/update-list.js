@@ -1,8 +1,7 @@
-const axios = require('./scripts/services/axios.js');
 const fs = require('node:fs');
 const path = require('node:path');
 const { parse } = require('csv-parse/sync');
-const { version } = require('./package.json');
+const axios = require('../utils/services/axios.js');
 
 const listFilePath = path.join(__dirname, 'lists', 'main.txt');
 const logsFilePath = path.join(__dirname, 'lists', 'details.csv');

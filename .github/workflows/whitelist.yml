@@ -25,13 +25,13 @@ jobs:
         run: npm ci --omit=dev
 
       - name: Process the Googlebot whitelist
-        run: node scripts/googlebot.js
+        run: node actions/safe-bots/googlebot.js
 
       - name: Process the Bingbot whitelist
-        run: node scripts/bingbot.js
+        run: node actions/safe-bots/bingbot.js
 
       - name: Process the Cloudflare whitelist
-        run: node scripts/cloudflare.js
+        run: node actions/safe-bots/cloudflare.js
 
       - name: Run git pull
         run: git pull
