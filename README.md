@@ -2,7 +2,7 @@
 This repository contains a list of IP addresses associated with various malicious activities on the internet.
 Many of these addresses are part of botnets, VPN/Proxy networks used to carry out cyberattacks, such as DDoS attacks, and more.
 
-⭐ If you find this repository helpful, please consider giving it a star. Thank you!
+⭐ **If you find this repository helpful, please consider giving it a star. Thank you!**
 
 ## What Can This List Block?
 1. ✅ DDoS attacks
