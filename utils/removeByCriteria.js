@@ -63,11 +63,13 @@ const removeByCriteria = async (criteria, criteriaType) => {
 	}
 };
 
-// Remove by endpoint
-// removeByCriteria('', 'endpoint');
+(async () => {
+	// Remove by endpoint
+	// await removeByCriteria('', 'endpoint');
 
-// Remove by IP
-removeByCriteria('', 'ip');
+	// Remove by IP
+	await removeByCriteria('', 'ip');
 
-// Remove by user-agent
-// removeByCriteria('', 'userAgent');
+	// Remove by user-agent
+	// await removeByCriteria('', 'userAgent');
+})();
